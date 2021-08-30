@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.loginPage-title {
+    width: 100%; 
+    height: 35px;
+    position: absolute;
+    /* left: 645px; */
+    top: 40px;
+    text-align: center;
+}
+
+.rivalStyling a{
+    font-style: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #2A4365;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.rivalStyling span {
+    font-weight: 500;
+    color: #3182CE;
+}
+
+.userEmailPassword {
+    height: 435px;
+    width: 412px;
+    position: absolute;
+    /* left: 500px; */
+    top: 90px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    background: #EDF2F7;
+}
+
+/* fullName */
+
+.symbolsAndFullName {
+    position: absolute;
+    left: -7px;
+}
+
+.userTextBeforSymbols {
+    position: relative;
+}
+.userName-PNG {
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 38.5px;
+    top: 14.5px;
+    border-radius: 0px;     
+}
+
+.userName-PNG1 {
+    height: 6px; 
+    width: 16px;
+    position: relative;
+    left: 35.2px;
+    top: 15px;
+    border-radius: 0px;
+}
+
+.userName {
+    height: 23px;
+    width: 87px;
+    position: relative;
+    left: 60px;
+    top: 5px;
+    border-radius: nullpx;
+}
+
+.userNAme-styling {
+    font-size: 20px; 
+    line-height: 23px;
+    color: #2A4365;
+    font-weight: 400;
+}
+
+.inputBox {
+    position: relative;
+    left: 10px;
+    top: 55px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.input-styling {
+    height: 50px;
+    width: 388px;
+}
+
+/* email */
+.emailAddressAndInputBox {
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
+.symbolsAndemail {
+    position: relative;
+    top: 14px;
+    left: -6px;
+}
+
+.emailTextBeforSymbols {
+    position: relative;
+    top: 9px;
+}
+
+.emailAddress-PNG {
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 33px;
+    top: 5px;   
+}
+
+.emailAddress-PNG1 {
+    height: 6px; 
+    width: 16px;
+    position: relative;
+    left: 33px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.emailAddress {
+    height: 23px;
+    width: 200px;
+    position: relative;
+    left: 23px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.emailAddress-styling {
+    font-size: 20px; 
+    line-height: 23px;
+    color: #2A4365;
+    font-weight: 400;
+}
+
+.email-inputBox {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    border-radius: 50px;
+}
+
+.emailInput-styling {
+    height: 50px;
+    width: 388px;
+}
+
+/* password */
+
+.passwordAndInputBox {
+    position: absolute;
+    top: 200px;
+}
+
+.symbolAndPassword {
+    position: relative;
+    top: 7px;
+    left: -7px;
+}
+
+.password-PNG {
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 25.5px;
+    top: 50px;
+    border-radius: 0px;     
+}
+
+.password-PNG1 {
+    height: 6px; 
+    width: 16px;
+    position: relative;
+    left: 21.9px;
+    top: 55px;
+    border-radius: 0px;
+}
+
+.password{
+    height: 23px;
+    width: 87px;
+    position: relative;
+    left: 47px;
+    top: 42px;
+    border-radius: nullpx;
+}
+
+.password-styling {
+    font-size: 20px; 
+    line-height: 23px;
+    color: #2A4365;
+    font-weight: 400;
+}
+
+.password-inputBox {
+    position: relative;
+    left: 10px;
+    top: 65px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.passwordInput-styling {
+    height: 50px;
+    width: 388px;
+}
+
+.register {
+    width: 100px;
+    height: 35px;
+    position:absolute;
+    top: 390px;
+    left: 316px;
+    background: #2A4365;
+    border-radius: 5px;
+}
+
+.register-styling a{
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+}

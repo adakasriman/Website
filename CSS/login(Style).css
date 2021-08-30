@@ -1,0 +1,225 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.loginPage-title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+}
+
+
+.rivalStyling a{
+    font-style: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #2A4365;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.loginPage-title span {
+    font-weight: 500;
+    color: #3182CE;
+}
+
+.EmailPassword {
+    height: 430px;
+    width: 412px;
+    position: absolute;
+    /* left: 450px; */
+    top: 90px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFFFFF;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    background: #EDF2F7;
+}
+/* email */
+
+/* .emailAddressAndInputBox {
+
+} */
+
+.emailTextBeforSymbols {
+    position: absolute;
+    left: -7px;
+}
+
+.emailAddress-PNG{
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 35px;
+    top: 19px;
+    border-radius: 0px;  
+}
+.emailAddress-PNG1 {
+    height: 6px; 
+    width: 16px;
+    position: relative;
+    left: 35.2px;
+    top: 15px;
+    border-radius: 0px; 
+}
+
+.emailAddress {
+    height: 23px;
+    width: 200px;
+    line-height: 23px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    border-radius: nullpx;
+}
+
+.emailAddress-styling {
+    font-size: 20px; 
+    font-weight: 400;
+    line-height: 23px;
+    color: #2A4365;
+    font-weight: 400;
+}
+
+.email-inputBox {
+    position: relative;
+    left: 10px;
+    top: 40px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.emailInput-styling {
+    height: 50px;
+    width: 388px;
+}
+
+/* password */
+
+.passwordAndInputBox {
+    position: absolute;
+    top: 130px;
+    left: 0;
+} 
+
+.symbolAndPassword {
+    line-height: 23px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+
+.passwordTextBeforSymbols {
+    position: relative;
+    top: 9px;
+}
+
+.password-PNG {
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 36.49px;
+    top: -2px;   
+}
+
+.password-PNG1 {
+    height: 6px; 
+    width: 16px;
+    position: relative;
+    left: 33px;
+    top: 3px;
+    border-radius: 0px;
+}
+
+.password {
+    height: 23px;
+    width: 120px;
+    line-height: 23px;
+    position: relative;
+    left: 58px;
+    top: 3px;
+    border-radius: nullpx;
+}
+
+.password-styling {
+    font-size: 20px; 
+    line-height: 23px;
+    color: #2A4365;
+    font-weight: 400;
+}
+
+.password-inputBox {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    border-radius: 50px;
+}
+
+.passwordInput-styling {
+    height: 50px;
+    width: 388px;
+}
+
+/* sign in */
+
+.forgotAndSignIn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    left:16px;
+}
+
+/* .forgot {
+  flex: 0.78;
+} */
+
+.forgotPossword-styling a{
+    font-weight: 400;
+    color: #3182CE;
+    text-decoration: none;
+}
+
+.signIn {
+    position: relative;
+    left: 85px;
+    padding: 10px 56px 12px 56px;
+    background: #2A4365;
+    border-radius: 5px;
+}
+.signIn-styling a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.creatingAccount {
+    width: 385px;
+    height: 50px;
+    position: relative;
+    top: 230px;
+    left: 12px;
+    text-align: center;
+    border: .5px solid #2A4365;
+    border-radius: 5px;
+}
+
+.creatingAccount-styling a{
+    font-weight: 400;
+    position: relative;
+    top: 12.5px;
+    color: #2A4365;
+    text-decoration: none;
+}
