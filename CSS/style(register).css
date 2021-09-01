@@ -7,59 +7,35 @@ body {
 
 header {
     width: 100%;
-    height: 66px;
-    background: #2D3748;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    height: 80px;
+    background: #2D3748;   
 }
 
-.symbolsAndTitle {
-    flex: 1;
-}
-
-.symbolsAndTitle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.register-page {
-    display: flex;
-    justify-content: center;
-}
-
-.symbols {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    top: -3px;
-}
-
-.headerSymbol {
-    width: 20px;
-    height: 15px;
-    position: relative;
-    top: 0px;
-    left: 40px;
+.headerSymbol{
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    top: 30px;
+    left: 56px;
+    transform: rotate(2deg);
 }
 
 .headerSymbol1 {
     width: 20px;
     height: 15px;
-    position: relative;
-    top: -8px;
-    left: 13px;
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    transform: rotate(0deg);
 }
 
 .title a{
     font-size: 20px;
     height: 23px;
     width: 85px;
-    position: relative;
-    left: 40px;
-    top: 0;
+    position: absolute;
+    top: 25px;
+    left: 101px;
     border-radius: nullpx;
     text-decoration: none;
     font-weight: 400;
@@ -70,51 +46,65 @@ header {
     color: #3182CE;
 }
 
-.signIn-InHeader a{
-    margin-right: 30px;
-    padding: 5px 15px 7px 15px;
-    border: 2px solid #F7FAFC;
-    border-radius: 5px;
-    color: #FFFFFF;
-    text-decoration: none;
-    position: relative;
-    top: -2px;
-}
-
-.loginPage-title {
-    width: 100%;
-    height: 35px;
+.signIn-InHeader {
+    width: 109px;
+    height: 43px;
     position: absolute;
-    /* left: 645px; */
-    top: 120px;
-    text-align: center;
+    top: 16px;
+    left: 1183px;
+    border: 2px solid #f7fafc;
+    border-radius: 5px;
+}
+.signInButton a{
+    width: 80px;
+    height: 23px;
+    font-size: 20px;
+    position: absolute;
+    top: 23px;
+    left: 1210px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
-.rivalStyling a {
-    font-style: normal;
-    font-size: 25px;
+.register-page {
+    position: absolute;
+    left:auto;
+    right: auto;
+}
+.loginPage-title {
+    width: 128px;
+    height: 35px;
+    font-size: 30px;
     line-height: 35px;
+    position: absolute;
+    left: 656px;
+    top: 50px;
+}
+
+
+.rivalStyling{
+    font-style: normal;
     color: #2A4365;
-    font-weight: 500;
+    font-weight: normal;
     text-decoration: none;
 }
 
 .rivalStyling span {
-    font-weight: 500;
+    font-weight: 400;
     color: #3182CE;
 }
 
 .userEmailPassword {
-    height: 415px;
-    width: 412px;
+    height: 555px;
+    width: 512px;
     position: absolute;
-    /* left: 500px; */
-    top: 180px;
-    border-radius: 10px;
-    text-align: center;
-    padding: 15px;
+    top: 120px;
+    left: 464px;
+    right: 464px;
     background: #FFFFFF;
+    border-radius: 10px;
 }
+
 
 input {
     border-radius: 5px;
@@ -124,104 +114,77 @@ input {
 
 /* fullName */
 
-.symbolsAndFullName {
-    position: absolute;
-    left: -7px;
-}
-
-.userTextBeforSymbols {
-    position: relative;
-}
-
 .userName-PNG {
     height: 8px;
     width: 8px;
     position: relative;
-    left: 38.5px;
-    top: 14.5px;
-    border-radius: 0px;
+    top: 30px;
+    left: 48px;
 }
+
 
 .userName-PNG1 {
     height: 6px;
     width: 16px;
     position: relative;
-    left: 35.2px;
-    top: 15px;
-    border-radius: 0px;
+    top: 33px;
+    left: 44px;
 }
 
 .userName {
     height: 23px;
     width: 87px;
     position: relative;
-    left: 60px;
-    top: 5px;
+    left: 75px;
+    top: 20px;
     border-radius: nullpx;
 }
 
 .userNAme-styling {
     font-size: 20px;
-    line-height: 23px;
+    line-height: 23.44px;
     color: #2A4365;
     font-weight: 400;
 }
 
 .inputBox {
     position: relative;
-    left: 10px;
-    top: 55px;
-    border-radius: 50px;
-    text-align: left;
+    top: 40px;
+    left: 42px;
+    border-radius: 5px;
+    /* text-align: left; */
 }
 
 .input-styling {
-    height: 50px;
-    width: 388px;
+    width: 436px;
+    height: 70px;
 }
 
 /* email */
 
-.emailAddressAndInputBox {
-    position: absolute;
-    top: 120px;
-    left: 0;
-}
-
-.symbolsAndemail {
-    position: relative;
-    top: 14px;
-    left: -6px;
-}
-
-.emailTextBeforSymbols {
-    position: relative;
-    top: 9px;
-}
-
 .emailAddress-PNG {
-    height: 8px;
-    width: 8px;
+    height: 7px;
+    width: 20px;
     position: relative;
-    left: 33px;
-    top: 5px;
+    top: 62px;
+    left: 44px;
 }
 
 .emailAddress-PNG1 {
-    height: 6px;
-    width: 16px;
+    height: 16px;
+    width: 20px;
     position: relative;
-    left: 33px;
-    top: 0px;
+    top: 60px;
+    left: 44px;
     border-radius: 0px;
 }
 
 .emailAddress {
     height: 23px;
-    width: 200px;
+    width: 126px;
     position: relative;
-    left: 23px;
-    top: 0px;
+    top: 40px;
+    left: 75px;
     border-radius: nullpx;
 }
 
@@ -234,35 +197,24 @@ input {
 
 .email-inputBox {
     position: relative;
-    left: 25px;
-    top: 30px;
-    border-radius: 50px;
+    left: 42px;
+    top: 67px;
+    border-radius: 5px;
 }
 
 .emailInput-styling {
-    height: 50px;
-    width: 388px;
+    height: 70px;
+    width: 436px;
 }
 
 /* password */
-
-.passwordAndInputBox {
-    position: absolute;
-    top: 200px;
-}
-
-.symbolAndPassword {
-    position: relative;
-    top: 7px;
-    left: -7px;
-}
 
 .password-PNG {
     height: 8px;
     width: 8px;
     position: relative;
-    left: 25.5px;
-    top: 50px;
+    top: 87px;
+    left: 51px;
     border-radius: 0px;
 }
 
@@ -270,8 +222,8 @@ input {
     height: 6px;
     width: 16px;
     position: relative;
-    left: 21.9px;
-    top: 55px;
+    top: 90px;
+    left: 47px;
     border-radius: 0px;
 }
 
@@ -279,8 +231,8 @@ input {
     height: 23px;
     width: 87px;
     position: relative;
-    left: 47px;
-    top: 42px;
+    top: 78px;
+    left: 75px;
     border-radius: nullpx;
 }
 
@@ -293,30 +245,33 @@ input {
 
 .password-inputBox {
     position: relative;
-    left: 10px;
-    top: 65px;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.passwordInput-styling {
-    height: 50px;
-    width: 388px;
-}
-
-.register {
-    width: 100px;
-    height: 35px;
-    position: absolute;
-    top: 390px;
-    left: 316px;
-    background: #2A4365;
+    top: 97px;
+    left: 42px;
     border-radius: 5px;
 }
 
+.passwordInput-styling {
+    height: 70px;
+    width: 436px;
+}
+
+.register {
+    width: 201px;
+    height: 61px;
+    position: relative;
+    top: 130px;
+    left: 277px;
+    border-radius: 5px;
+    background: #2A4365;
+}
+
 .register-styling a {
+    width: 74px;
+    height: 23px;
+    font-size: 20px;
+    position: relative;
+    top: 83px;
+    left: 340px;
     text-decoration: none;
     color: #FFFFFF;
-    position: relative;
-    top: 5px;
 }

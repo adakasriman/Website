@@ -3,40 +3,39 @@ body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #E5E5E5;
-    display: flex;
-    justify-content: center;
 }
 
 .loginPage-title {
-    width: 100%;
-    text-align: center;
+    width: 128px;
+    height: 35px;
+    font-size: 30px;
+    line-height: 35px;
     position: absolute;
-    top: 80px;
+    left: 656px;
+    top: 75px;
 }
 
 
-.rivalStyling a{
+.rivalStyling{
     font-style: normal;
-    font-size: 26px;
-    line-height: 35px;
     color: #2A4365;
-    font-weight: 500;
+    font-weight: normal;
     text-decoration: none;
 }
 
-.loginPage-title span {
-    font-weight: 500;
+.rivalStyling span {
+    font-weight: 400;
     color: #3182CE;
 }
 
+
 .EmailPassword {
-    height: 430px;
-    width: 412px;
+    height: 513px;
+    width: 518px;
     position: absolute;
-    /* left: 450px; */
-    top: 150px;
+    left: 456px;
+    top: 155px;
     border-radius: 10px;
-    padding: 15px;
     background: #FFFFFF;
 }
 
@@ -47,39 +46,30 @@ input {
 }
 /* email */
 
-/* .emailAddressAndInputBox {
-
-} */
-
-.emailTextBeforSymbols {
-    position: absolute;
-    left: -7px;
-}
-
 .emailAddress-PNG{
-    height: 8px;
-    width: 8px;
+    height: 10px;
+    width: 9px;
     position: relative;
-    left: 35px;
-    top: 19px;
+    left: 45px;
+    top: 30px;
     border-radius: 0px;  
 }
 .emailAddress-PNG1 {
     height: 6px; 
     width: 16px;
     position: relative;
-    left: 35.2px;
-    top: 15px;
+    left: 45px;
+    top: 26px;
     border-radius: 0px; 
 }
 
 .emailAddress {
     height: 23px;
-    width: 200px;
+    width: 127px;
     line-height: 23px;
     position: relative;
-    left: 40px;
-    top: 20px;
+    left: 76px;
+    top: 16px;
     border-radius: nullpx;
 }
 
@@ -93,112 +83,90 @@ input {
 
 .email-inputBox {
     position: relative;
-    left: 10px;
+    left: 42px;
     top: 40px;
     border-radius: 50px;
     text-align: left;
 }
 
 .emailInput-styling {
-    height: 50px;
-    width: 388px;
+    height: 70px;
+    width: 436px;
 }
 
 /* password */
 
-.passwordAndInputBox {
-    position: absolute;
-    top: 130px;
-    left: 0;
-} 
-
-.symbolAndPassword {
-    line-height: 23px;
-    position: relative;
-    top: 10px;
-    left: -5px;
-}
-
-.passwordTextBeforSymbols {
-    position: relative;
-    top: 9px;
-}
 
 .password-PNG {
-    height: 8px;
-    width: 8px;
+    height: 7px;
+    width: 20px;
     position: relative;
-    left: 36.49px;
-    top: -2px;   
+    left: 49.4px;
+    top: 65px;   
 }
 
 .password-PNG1 {
-    height: 6px; 
-    width: 16px;
+    height: 16px; 
+    width: 20px;
     position: relative;
-    left: 33px;
-    top: 3px;
+    left: 46px;
+    top: 71px;
     border-radius: 0px;
 }
 
 .password {
     height: 23px;
-    width: 120px;
+    width: 89px;
     line-height: 23px;
     position: relative;
-    left: 58px;
-    top: 3px;
+    left: 74px;
+    top: 48px;
     border-radius: nullpx;
 }
 
 .password-styling {
     font-size: 20px; 
-    line-height: 23px;
     color: #2A4365;
     font-weight: 400;
 }
 
 .password-inputBox {
     position: relative;
-    left: 25px;
-    top: 30px;
-    border-radius: 50px;
+    left: 42px;
+    top: 75px;
+    border-radius: 5px;
 }
 
 .passwordInput-styling {
-    height: 50px;
-    width: 388px;
+    height: 70px;
+    width: 433px;
 }
 
 /* sign in */
 
-.forgotAndSignIn {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 200px;
-    left:16px;
-}
-
-/* .forgot {
-  flex: 0.78;
-} */
-
 .forgotPossword-styling a{
     font-weight: 400;
+    font-size: 20px;
     color: #3182CE;
     text-decoration: none;
+    position: relative;
+    top: 125px;
+    left: 47px;
 }
 
 .signIn {
+    width: 201px;
+    height: 61px;
     position: relative;
-    left: 85px;
-    padding: 10px 56px 12px 56px;
+    top: 80px;
+    left: 277px;
     background: #2A4365;
     border-radius: 5px;
 }
-.signIn-styling a{
+.signIn-styling {
+    position: relative;
+    top: 33px;
+    left: 345px;
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
@@ -206,20 +174,21 @@ input {
 }
 
 .creatingAccount {
-    width: 385px;
-    height: 50px;
+    width: 430px;
+    height: 61px;
     position: relative;
-    top: 230px;
-    left: 12px;
-    text-align: center;
+    top: 80px;
+    left: 45px;
     border: .5px solid #2A4365;
     border-radius: 5px;
 }
 
 .creatingAccount-styling a{
     font-weight: 400;
+    font-size: 20px;
     position: relative;
-    top: 12.5px;
+    left: 120px;
+    top: 14px;
     color: #2A4365;
     text-decoration: none;
 }
