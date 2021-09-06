@@ -67,9 +67,10 @@ header {
 }
 
 .register-page {
-    position: absolute;
-    left:auto;
-    right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .loginPage-title {
     width: 128px;
@@ -77,8 +78,7 @@ header {
     font-size: 30px;
     line-height: 35px;
     position: absolute;
-    left: 656px;
-    top: 50px;
+    top: 130px;
 }
 
 
@@ -97,12 +97,10 @@ header {
 .userEmailPassword {
     height: 555px;
     width: 512px;
-    position: absolute;
-    top: 120px;
-    left: 464px;
-    right: 464px;
     background: #FFFFFF;
     border-radius: 10px;
+    position: absolute;
+    top: 200px;
 }
 
 
