@@ -7,61 +7,68 @@ body {
 
 header {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background: #2D3748;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 7px;
 }
 
+.symbolsAndTitle {
+    flex: 1;
+}
+.signIn-InHeader {
+    margin-right: 20px;
+}
+
+.symbolsAndTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.symbols {
+    margin-left: 20px;
+    margin-top: -7px;
+}
 .headerSymbol{
-    width: 30px;
+    width: 20px;
     height: 24px;
-    position: absolute;
-    top: 30px;
-    left: 56px;
-    transform: rotate(2deg);
+    transform: rotate(-2deg);
+}
+.symbolSetup {
+    margin-top: 10px;
 }
 
 .headerSymbol1 {
     width: 20px;
-    height: 15px;
-    position: absolute;
-    top: 22px;
-    left: 50px;
-    transform: rotate(0deg);
+    height: 24px;
+    transform: rotate(180deg);
+    margin-left: 20px;
 }
 
 .title a{
     font-size: 20px;
-    height: 23px;
     width: 85px;
-    position: absolute;
-    top: 25px;
-    left: 101px;
-    border-radius: nullpx;
     text-decoration: none;
     font-weight: 400;
     color: #FFFFFF;
+    margin-left: 10px;
+    
 }
 .title span {
     font-weight: 500;
     color: #3182CE;
 }
 
-.signIn-InHeader {
-    width: 109px;
-    height: 43px;
-    position: absolute;
-    top: 16px;
-    left: 1183px;
-    border: 2px solid #f7fafc;
-    border-radius: 5px;
-}
-.signInButton a{
+.signIn-InHeader a{
     width: 80px;
-    height: 23px;
+    height: 52px;
     font-size: 20px;
-    position: absolute;
-    top: 23px;
-    left: 1210px;
+    padding: 7px 24px 13px 25px;
+    border: 1px solid #EDF2F7;
+    border-radius: 5px;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -77,8 +84,7 @@ header {
     height: 35px;
     font-size: 30px;
     line-height: 35px;
-    position: absolute;
-    top: 130px;
+    margin-top: 88px;
 }
 
 
@@ -95,47 +101,47 @@ header {
 }
 
 .userEmailPassword {
-    height: 555px;
+    height: 541px;
     width: 512px;
     background: #FFFFFF;
     border-radius: 10px;
-    position: absolute;
-    top: 200px;
-}
-
-
-input {
-    border-radius: 5px;
-    border: none;
-    background: #EDF2F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
 }
 
 /* fullName */
 
+.userNameAndInputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.symbolsAndFullName {
+    display: flex;
+    /* align-items: center; */
+}
+
 .userName-PNG {
     height: 8px;
     width: 8px;
-    position: relative;
-    top: 30px;
-    left: 48px;
+    margin-left: 3px;
+    margin-top: -2px;
 }
 
 
 .userName-PNG1 {
     height: 6px;
     width: 16px;
-    position: relative;
-    top: 33px;
-    left: 44px;
+    margin-top: 2px;
 }
 
 .userName {
     height: 23px;
     width: 87px;
-    position: relative;
-    left: 75px;
-    top: 20px;
-    border-radius: nullpx;
+    margin-left: 10px;
 }
 
 .userNAme-styling {
@@ -146,43 +152,45 @@ input {
 }
 
 .inputBox {
-    position: relative;
-    top: 40px;
-    left: 42px;
-    border-radius: 5px;
-    /* text-align: left; */
+    margin-top: 15px;
 }
 
 .input-styling {
     width: 436px;
     height: 70px;
+    border-radius: 5px;
+    border: none;
+    background: #EDF2F7;
 }
 
 /* email */
+.emailAddressAndInputBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.symbolsAndemail {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
 
 .emailAddress-PNG {
     height: 7px;
     width: 20px;
-    position: relative;
-    top: 62px;
-    left: 44px;
 }
 
 .emailAddress-PNG1 {
     height: 16px;
     width: 20px;
-    position: relative;
-    top: 60px;
-    left: 44px;
     border-radius: 0px;
 }
 
 .emailAddress {
     height: 23px;
     width: 126px;
-    position: relative;
-    top: 40px;
-    left: 75px;
+    margin-left: 10px;
+    margin-top: 5px;
     border-radius: nullpx;
 }
 
@@ -194,43 +202,46 @@ input {
 }
 
 .email-inputBox {
-    position: relative;
-    left: 42px;
-    top: 67px;
-    border-radius: 5px;
+    margin-top: 15px;
 }
 
 .emailInput-styling {
     height: 70px;
     width: 436px;
+    border-radius: 5px;
+    border: none;
+    background: #EDF2F7;
 }
 
 /* password */
+.passwordAndInputBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.symbolAndPassword {
+    display: flex;
+    align-items: center;
+}
 
 .password-PNG {
     height: 8px;
     width: 8px;
-    position: relative;
-    top: 87px;
-    left: 51px;
-    border-radius: 0px;
+    margin-left: 4px;
 }
 
 .password-PNG1 {
     height: 6px;
     width: 16px;
-    position: relative;
-    top: 90px;
-    left: 47px;
-    border-radius: 0px;
+    margin-top: 5px;
 }
 
 .password {
     height: 23px;
     width: 87px;
-    position: relative;
-    top: 78px;
-    left: 75px;
+    margin-top: 12px;
+    margin-left: 10px;
     border-radius: nullpx;
 }
 
@@ -242,34 +253,32 @@ input {
 }
 
 .password-inputBox {
-    position: relative;
-    top: 97px;
-    left: 42px;
+    margin-top: 15px;
     border-radius: 5px;
 }
 
 .passwordInput-styling {
     height: 70px;
     width: 436px;
+    border-radius: 5px;
+    border: none;
+    background: #EDF2F7;
 }
 
 .register {
-    width: 201px;
-    height: 61px;
-    position: relative;
-    top: 130px;
-    left: 277px;
-    border-radius: 5px;
-    background: #2A4365;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 45px;
 }
 
 .register-styling a {
     width: 74px;
     height: 23px;
     font-size: 20px;
-    position: relative;
-    top: 83px;
-    left: 340px;
     text-decoration: none;
     color: #FFFFFF;
+    padding: 15px 70px 18px 70px;
+    background: #2A4365;
+    border-radius: 5px;
 }
