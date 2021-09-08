@@ -18,10 +18,9 @@ header {
     flex: 1;
 }
 
-.signIn-InHeader {
-    margin-right: 20px;
+.symbolsAndTitle {
+    margin-left: 75px;
 }
-
 .symbolsAndTitle {
     display: flex;
     flex-direction: row;
@@ -77,7 +76,7 @@ a {
 }
 
 .leftSideNav {
-    padding: 72px 70px 158px 40px;
+    padding: 72px 70px 158px 70px;
 }
 
 
