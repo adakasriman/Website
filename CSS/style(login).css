@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
     display: flex;
     flex-direction: column;
@@ -15,21 +15,20 @@ body {
     font-size: 30px;
     line-height: 35px;
     margin-top: 107px;
+    margin-bottom: 39px;
 }
 
 
 .rivalStyling{
-    font-style: normal;
     color: #2A4365;
-    font-weight: normal;
+    font-weight:bolder;
     text-decoration: none;
 }
 
 .rivalStyling span {
-    font-weight: 400;
+    font-weight: bolder;
     color: #3182CE;
 }
-
 
 .EmailPassword {
     height: 513px;
@@ -40,7 +39,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 181px;
+    /* margin-top: 181px; */
 }
 
 
@@ -54,13 +53,11 @@ body {
 .symbolsAndemail {
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 
-.emailTextBeforSymbols {
-    margin-top: -5px;
-}
 .emailAddress-PNG {
-    height: 7px;
+    height: 5px;
     width: 20px;
 }
 
@@ -75,24 +72,22 @@ body {
     width: 127px;
     line-height: 23px;
     border-radius: nullpx;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 21px;
 }
 
 .emailAddress-styling {
     font-size: 20px; 
-    font-weight: 400;
     line-height: 23px;
     color: #2A4365;
-    font-weight: 400;
-}
-
-.email-inputBox {
-    margin-top: 15px;
+    font-weight:100;
 }
 
 .emailInput-styling {
     height: 70px;
     width: 436px;
+    font-size: 24px;
     border-radius: 5px;
     border: none;
     background: #EDF2F7;
@@ -108,7 +103,8 @@ body {
 .symbolAndPassword {
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 21px;
+    margin-bottom: 21px;
 }
 
 /* .passwordTextBeforSymbols {
@@ -117,20 +113,21 @@ body {
 .password-PNG {
     height: 7px;
     width: 20px;
-    margin-left: 3px;
+    margin-left: 3.5px;
 }
 
 .password-PNG1 {
     height: 16px; 
     width: 20px;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 .password {
     height: 23px;
     width: 89px;
     line-height: 23px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
 
 .password-styling {
@@ -139,13 +136,10 @@ body {
     font-weight: 400;
 }
 
-.password-inputBox {
-    margin-top: 15px;
-}
-
 .passwordInput-styling {
     height: 70px;
     width: 436px;
+    font-size: 24px;
     border-radius: 5px;
     border: none;
     background: #EDF2F7;
@@ -156,7 +150,7 @@ body {
 .forgotAndSignIn {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 43px;
 }
 
 .forgot {
@@ -172,7 +166,7 @@ body {
 
 .signIn {
     background: #2A4365;
-    padding: 18px 71px 20px 70px;
+    padding: 18px 71px 18px 70px;
     border-radius: 5px;
 }
 .signIn-styling {
@@ -183,11 +177,12 @@ body {
 }
 
 .creatingAccount {
+    margin-top: 43px;
+    margin-bottom: 26px;
     padding: 15px 120px 19px 111px;
-    border: .5px solid #2A4365;
+    border: 2px solid #2A4365;
     border-radius: 5px;
     text-align: center;
-    margin-top: 35px;
 }
 
 .creatingAccount-styling a{

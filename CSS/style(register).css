@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
 }
 
@@ -12,7 +12,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 7px;
 }
 
 .symbolsAndTitle {
@@ -32,20 +31,9 @@ header {
     margin-left: 20px;
     margin-top: -7px;
 }
-.headerSymbol{
-    width: 20px;
-    height: 24px;
-    transform: rotate(-2deg);
-}
+
 .symbolSetup {
     margin-top: 10px;
-}
-
-.headerSymbol1 {
-    width: 20px;
-    height: 24px;
-    transform: rotate(180deg);
-    margin-left: 20px;
 }
 
 .title a{
@@ -66,7 +54,7 @@ header {
     width: 80px;
     height: 52px;
     font-size: 20px;
-    padding: 7px 24px 13px 25px;
+    padding: 7px 24px 7px 25px;
     border: 1px solid #EDF2F7;
     border-radius: 5px;
     text-decoration: none;
@@ -85,18 +73,19 @@ header {
     font-size: 30px;
     line-height: 35px;
     margin-top: 88px;
+    margin-bottom: 47px;
 }
 
 
 .rivalStyling{
     font-style: normal;
     color: #2A4365;
-    font-weight: normal;
+    font-weight:bolder;
     text-decoration: none;
 }
 
 .rivalStyling span {
-    font-weight: 400;
+    font-weight: bolder;
     color: #3182CE;
 }
 
@@ -108,7 +97,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
 }
 
 /* fullName */
@@ -117,11 +105,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 30px;
 }
 
 .symbolsAndFullName {
     display: flex;
-    /* align-items: center; */
 }
 
 .userName-PNG {
@@ -152,12 +140,14 @@ header {
 }
 
 .inputBox {
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 22px;
 }
 
 .input-styling {
     width: 436px;
-    height: 70px;
+    height: 66px;
+    font-size: 24px;
     border-radius: 5px;
     border: none;
     background: #EDF2F7;
@@ -172,11 +162,10 @@ header {
 .symbolsAndemail {
     display: flex;
     align-items: center;
-    margin-top: 25px;
 }
 
 .emailAddress-PNG {
-    height: 7px;
+    height: 6px;
     width: 20px;
 }
 
@@ -202,12 +191,14 @@ header {
 }
 
 .email-inputBox {
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 22px;
 }
 
 .emailInput-styling {
-    height: 70px;
+    height: 66px;
     width: 436px;
+    font-size: 4px;
     border-radius: 5px;
     border: none;
     background: #EDF2F7;
@@ -217,12 +208,14 @@ header {
 .passwordAndInputBox {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
 }
 
 .symbolAndPassword {
     display: flex;
     align-items: center;
+}
+.passwordTextBeforSymbols {
+    margin-bottom: 10px;
 }
 
 .password-PNG {
@@ -240,8 +233,8 @@ header {
 .password {
     height: 23px;
     width: 87px;
-    margin-top: 12px;
     margin-left: 10px;
+    margin-top: 10px;
     border-radius: nullpx;
 }
 
@@ -253,13 +246,14 @@ header {
 }
 
 .password-inputBox {
-    margin-top: 15px;
-    border-radius: 5px;
+    margin-top: 20px;
+    /* margin-bottom: 18px; */
 }
 
 .passwordInput-styling {
-    height: 70px;
+    height: 66px;
     width: 436px;
+    font-size: 24px;
     border-radius: 5px;
     border: none;
     background: #EDF2F7;
@@ -269,7 +263,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 48px;
+    margin-bottom: 28px;
 }
 
 .register-styling a {
