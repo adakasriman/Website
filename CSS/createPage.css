@@ -21,6 +21,7 @@ header {
 .symbolsAndTitle {
     margin-left: 75px;
 }
+
 .symbolsAndTitle {
     display: flex;
     flex-direction: row;
@@ -57,17 +58,24 @@ header {
     align-items: center;
     margin-right: 26px;
 }
+
 a {
     text-decoration: none;
 }
 
 .proPlan {
-    color:  #FFFCFE;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFCFE;
     margin-right: 26px;
     padding: 7px 11px 7px 14px;
     background: #ED64A6;
     border-radius: 5px;
 }
+
 /* container */
 
 .container {
@@ -75,10 +83,9 @@ a {
     display: flex;
 }
 
-.leftSideNav{
+.leftSideNav {
     padding: 72px 70px 158px 70px;
 }
-
 
 .LHTop {
     margin-top: 32px;
@@ -88,7 +95,7 @@ a {
     list-style-type: none;
 }
 
-.sideUL ul li{
+.sideUL ul li {
     font-size: 18px;
     line-height: 21px;
 }
@@ -205,8 +212,9 @@ nav ul li a {
 
 .eye {
     width: 24px;
-    height: 24px;  
+    height: 24px;
 }
+
 .paddingForSP {
     padding: 12px 14px;
     background: #BEE3F8;
@@ -252,4 +260,4 @@ nav ul li a {
     text-decoration: none;
     margin-left: 12px;
     color: #2A4365;
-} 
+}
