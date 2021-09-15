@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="/CSS/blog-view.css">
+    <link rel="styleSheet" href="/CSS/fileView-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Blog view</title>
+    <title>File view</title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
                         </li>
                         <li class="listMargins list-flex">
                             <div class="listImage">
-                                <a href="/createView.html">
+                                <a href="/createPage.html">
                                     <img src="/IMG/file-plus.png" alt="">
                                 </a>
                             </div>
@@ -61,15 +61,12 @@
                         </li>
                         <li class="listMargins list-flex">
                             <div class="listImage">
-                                <a href="">
+                                <a href="/blog-view.html">
                                     <img src="/IMG/pen-tool.png" alt="">
                                 </a>
                             </div>
                             <div class="listName">
                                 <a href="/blog-view.html">Blog articles</a>
-                            </div>
-                            <div>
-                                <img src="/IMG/Ellipse.png" alt="">
                             </div>
                         </li>
                         <li class="listMargins list-flex">
@@ -80,6 +77,9 @@
                             </div>
                             <div class="listName">
                                 <a href="/fileView-page.html">Files</a>
+                            </div>
+                            <div>
+                                <img src="/IMG/Ellipse.png" alt="">
                             </div>
                         </li>
                         <li class="listMargins list-flex">
@@ -147,89 +147,72 @@
                 </nav>
             </div>
             <div class="rightSideContainer">
-                <table> 
-                    <tr class="tableHeader">
-                        <td class="title-Col">Title</td>
-                        <td class="status-Col">Status</td>
-                        <td class="stats-col">Stats</td>
-                        <td class="headerAddNew-col">
-                            <div class="pen"><img src="/IMG/pen-tool1.png" alt=""></div>
-                            <div><a class="addNew" href="">Add new</a></div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="underLine">
-                            <hr>
-                        </td>
-                    </tr>
-                    <tr class="tableInsideData">
-                        <td class="post-title">
-                            <div class="title-data">Design: A Survival Guide for Beginners</div>
-                            <div class="postedTime">Posted 3 days ago</div>
-                        </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
-                            <div class="number">120</div>
-                            <div class="vews">views</div>
-                            <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
-                        </td>
-                        <td class="none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
-                    </tr>
-                    <tr class="tableInsideData">
-                        <td class="post-title">
-                            <div class="title-data">Design: A Survival Guide for Beginners</div>
-                            <div class="postedTime">Posted 3 days ago</div>
-                        </td>
-                        <td class="draft stats-marginRight">Draft</td>
-                        <td class="numberViewDownloads">
-                            <div class="number marginRight-00"> 00</div>
-                            <div class="vews">views</div>
-                        </td>
-                        <td class="none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
-                    </tr>
-                    <tr class="tableInsideData">
-                        <td class="post-title">
-                            <div class="title-data">Design: A Survival Guide for Beginners</div>
-                            <div class="postedTime">Posted 3 days ago</div>
-                        </td>
-                        <td class="scheduled stats-marginRight">Scheduled</td>
-                        <td class="numberViewDownloads"> 
-                            <div class="number marginRight-00"> 00</div>
-                            <div class="vews">views</div>
-                        </td>
-                        <td class="none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
-                    </tr>
-                    <tr class="tableInsideData">
-                        <td class="post-title">
-                            <div class="title-data">Design: A Survival Guide for Beginners</div>
-                            <div class="postedTime">Posted 3 days ago</div>
-                        </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
-                            <div class="number">120</div>
-                            <div class="vews">views</div>
-                            <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
-                        </td>
-                        <td class="none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
-                    </tr>
-                    <tr class="tableInsideData">
-                        <td class="post-title">
-                            <div class="title-data">Design: A Survival Guide for Beginners</div>
-                            <div class="postedTime">Posted 3 days ago</div>
-                        </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
-                            <div class="number">120</div>
-                            <div class="vews">views</div>
-                            <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
-                        </td>
-                        <td class="none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
-                    </tr>
-                </table>
+                <div class="uploadAndDragDrop">
+                    <div class="upload"><a class="uploadStyle" href="">
+                        click to upload</a>
+                    </div>
+                    <div class="dragAndDrop">
+                        Drag & drop multiple files to upload
+                    </div>
+                </div>
+                <div class="searchAndnav">
+                    <div class="hrLine">
+                        <div class="searchIconAndsearch">
+                            <div class="searchbutton">
+                                <img src="/IMG/search.png" alt="">
+                            </div>
+                            <input class="search" type="search" placeholder="Search for file">
+                        </div>
+                        <hr>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a class="filter" href="">Filter</a></li>
+                            <li><a class="images imageColor" href="">Images</a></li>
+                            <li><a class="files navListColor" href="">Files</a></li>
+                            <li><a class="audio navListColor" href="">Audio</a></li>
+                            <li><a class="video navListColor" href="">Video</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="uploadFilesPlace">
+                    <div class="uploadedImages">
+                        <div class="flex-box">
+                            <div><img src="/IMG/photo.png" alt=""></div>
+                            <div class="aboutImage">Oceanic_view.jpg</div>
+                            <div class="photoUploadedTime">Uploaded 2 days ago</div>
+                            <div><img src="/IMG/more-horizontal.png" alt=""></div>
+                        </div>
+                        <div class="flex-box">
+                            <div><img src="/IMG/photo.png" alt=""></div>
+                            <div class="aboutImage">Oceanic_view.jpg</div>
+                            <div class="photoUploadedTime">Uploaded 2 days ago</div>
+                            <div><img src="/IMG/more-horizontal.png" alt=""></div>
+                        </div>
+                        <div class="flex-box">
+                            <div><img src="/IMG/photo.png" alt=""></div>
+                            <div class="aboutImage">Oceanic_view.jpg</div>
+                            <div class="photoUploadedTime">Uploaded 2 days ago</div>
+                            <div><img src="/IMG/more-horizontal.png" alt=""></div>
+                        </div>
+                        <div class="flex-box">
+                            <div><img src="/IMG/photo.png" alt=""></div>
+                            <div class="aboutImage">Oceanic_view.jpg</div>
+                            <div class="photoUploadedTime">Uploaded 2 days ago</div>
+                            <div><img src="/IMG/more-horizontal.png" alt=""></div>
+                        </div>
+                        <div class="flex-box">
+                            <div><img src="/IMG/photo.png" alt=""></div>
+                            <div class="aboutImage">Oceanic_view.jpg</div>
+                            <div class="photoUploadedTime">Uploaded 2 days ago</div>
+                            <div><img src="/IMG/more-horizontal.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="pageNumbers">
-                    <div><a href="" class="pageNumber1 pageNumber-margin">1</a></div>
-                    <div><a href="" class="pageNumber pageNumber-margin">2 </a></div>
-                    <div><a href=""  class="pageNumber pageNumber-margin">3</a></div>
+                    <div class="pageNumber1 pageNumber-margin">1</div>
+                    <div class="pageNumber pageNumber-margin">2</div>
+                    <div class="pageNumber pageNumber-margin">3</div>
                 </div>
             </div>
         </div>

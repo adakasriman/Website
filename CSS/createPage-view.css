@@ -7,7 +7,7 @@ body {
 
 header {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background: #2D3748;
     display: flex;
     flex-direction: row;
@@ -102,6 +102,7 @@ a {
 
 .sideUL li a {
     text-decoration: none;
+    color: #2C5282;
 }
 
 .listHeading {
@@ -125,8 +126,11 @@ a {
     margin: 31px 0px;
 }
 
-.sideUL .listColor {
-    color: #2C5282;
+.viewSiteStyle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
 }
 
 .list-flex {
@@ -231,6 +235,10 @@ nav ul li a {
     border-radius: 5px;
 }
 
+hr {
+    border: 1px solid #E2E8F0;
+}
+
 .color-setup {
     text-decoration: none;
     color: #FFFCFE;
@@ -243,6 +251,11 @@ nav ul li a {
     padding: 123px 0px 122px 0px;
     background: #F7FAFC;
     margin-top: 44px;
+}
+
+.grid {
+    margin-top: -125px;
+    padding: 9px 0px 0px 9px;
 }
 
 .addingSection-boxSetup {

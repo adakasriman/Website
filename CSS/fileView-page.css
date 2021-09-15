@@ -134,7 +134,6 @@ a {
     font-weight: 900;
     line-height: 21px;
 }
-
 .list-flex {
     display: flex;
     align-items: center;
@@ -145,196 +144,181 @@ a {
     padding-left: 12px;
 }
 
-/* right side container */
+/*  */
 
 .rightSideContainer {
-    padding: 45px 38px 0px 48px;
     width: 100%;
-    background: #FFFFFF;
+    padding: 50px 41px 25px 41px;
+    /* display: flex;
+    flex-direction: column; */
+    background: #fff;
 }
 
-table {
-    width: 100%;
-}
-
-table tr {
+.uploadAndDragDrop {
+    padding: 36px 0;
     display: flex;
-    margin-bottom: 19px;
-}
-
-tr {
+    flex-direction: column;
+    background: #F7FAFC;
     align-items: center;
 }
 
-.tableHeader {
-    display: flex;
+.upload {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 5px;
+    padding: 13px 20px 13px 19px;
+    background: #2C5282;
+    margin-bottom: 19px;
 }
 
-.title-Col {
+.uploadStyle {
+    color: #FFFFFF;
+}
+
+.dragAndDrop {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #2C5282;
+    text-align: center;
+}
+
+.searchAndnav {
+    display: flex;
+    align-items: center;
+    margin: 25px 0px 23px 0;
+}
+
+.hrLine {
     flex: 1;
 }
 
-.title-Col {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2C5282;
-}
-
-.status-Col {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2C5282;
-    margin-right: 145px;
-}
-
-.stats-col {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2C5282;
-    margin-right: 119px;
-}
-
-.addNew {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-left: 14px;
-    color: #FFFCFE;
-}
-
-.headerAddNew-col {
-    border-radius: 5px;
+.searchIconAndsearch {
     display: flex;
-    padding: 12px 24px 11px 21px;
-    background: #2A4365;
+    align-items: center;
 }
 
-.underLine {
-    width: 100%;
+.searchAndnav nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
 }
-hr {
-    width: 100%;
-    padding: 1px;
-    background: #E2E8F0;
+
+.searchAndnav nav ul li {
+    margin-left: 21px;
+}
+
+.search {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #718096;
     border: none;
+    margin-left: 19px;
 }
 
-.tableInsideData {
-    padding: 38px 35px 39px 30px;
-    background: #F7FAFC;
+hr {
+    margin-left: 0px;
+    width: 243px;
+    border: 1px solid #E2E8F0;
 }
 
-.post-title {
+.filter {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #90CDF4;
+}
+
+.images {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 5px 14px 5px 15px;
+    background: #2C5282;
+    border-radius: 50px;
+}
+
+.imageColor {
+    color: #F7FAFC;
+}
+
+.files {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: red;
+    padding: 3px 14px 5px 16px;
+    border: 1px solid #2C5282;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.navListColor {
+    color: #2C5282;
+}
+
+.audio {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    padding: 3px 14px 5px 17px;
+    border: 1px solid #2C5282;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.video {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px 14px 4px 17px;
+    border: 1px solid #2C5282;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.flex-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 30px 12px 19px;
+    background: #F7FAFC;
+    margin-bottom: 15px;
 }
 
-.title-data {
+.aboutImage {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
-    text-align: left;
     color: #2A4365;
-    margin-right: 85px;
+    margin: 0px 189px 0px 189px;
 }
 
-.postedTime {
-    font-size: 14px;
+.photoUploadedTime {
+    width: 168px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 21px;
     letter-spacing: 0em;
-    text-align: left;
-    color: #A0AEC0;
-}
-
-.status {
-    padding: 7px 24px 6px 25px;
-    color: #9AE6B4;
-    border: 2px solid #9AE6B4;
-    box-sizing: border-box;
-    border-radius: 50px;
-    margin-right: 0;
-}
-
-.numberViewDownloads {
-    display: flex;
-    align-items: center;
-    width: 200px;
-}
-
-.number {
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #2A4365;
-    margin-right: 7px;
-}
-
-.vews {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #A0AEC0;
-    margin-right: 9px;
-}
-
-.draft {
-    padding: 7px 42px 6px 42px;
-    color: #FC8181;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    border: 1px solid #FC8181;
-    border-radius: 50px;
-}
-
-.scheduled {
-    padding: 7px 22px 6px 23px;
-    color: #FBD38D;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    border: 1px solid #FBD38D;
-    border-radius: 50px;
-}
-
-.stats-marginRight {
-    margin-right: 75px;
-} 
-
-.marginRight-00 {
-    margin-left: 10px;
+    margin-right: 80px
 }
 
 /* page numbers */
@@ -343,7 +327,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 37px 0 46px 0;
+    margin: 37px 0 27px 0;
 }
 
 .pageNumber1 {
