@@ -6,33 +6,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
 .loginPage-title {
-    width: 128px;
-    height: 35px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 35px;
-    margin-top: 107px;
-    margin-bottom: 39px;
+    margin: 107px auto 39px auto;
 }
 
 
 .rivalStyling{
     color: #2A4365;
-    font-weight:bolder;
+    font-weight:400;
     text-decoration: none;
 }
 
 .rivalStyling span {
-    font-weight: bolder;
+    font-weight: 500;
     color: #3182CE;
 }
 
 .EmailPassword {
-    height: 513px;
-    width: 518px;
+    width: 512px;
     border-radius: 10px;
     background: #FFFFFF;
     display: flex;
@@ -40,7 +37,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    margin-bottom: 106px;
+    margin-bottom: 206px;
 }
 
 
@@ -62,7 +59,7 @@ body {
     width: 127px;
     line-height: 23px;
     border-radius: nullpx;
-    margin-left: 10px;
+    margin-left: 11px;
 }
 
 .emailAddress-styling {
@@ -155,6 +152,7 @@ body {
     border: 2px solid #2A4365;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 26px;
 }
 
 .creatingAccount-styling a{

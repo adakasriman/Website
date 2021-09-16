@@ -28,24 +28,15 @@ header {
     align-items: center;
 }
 
-.symbols {
-    margin-left: 20px;
-    margin-top: -7px;
-}
-
-.symbolSetup {
-    /* width: 30px;
-    height: 30px; */
-    margin-top: 10px;
-}
-
 .title a {
     font-size: 20px;
-    width: 85px;
-    text-decoration: none;
+    font-style: normal;
     font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
     color: #FFFFFF;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .title span {
@@ -70,11 +61,16 @@ a {
     line-height: 18px;
     letter-spacing: 0em;
     color: #FFFCFE;
-    margin-right: 26px;
+    margin-right: 18px;
     padding: 7px 11px 7px 14px;
     background: #ED64A6;
     border-radius: 5px;
 }
+
+.accountHolderPlace {
+    margin-right: 26px;
+}
+
 
 /* container */
 
@@ -84,7 +80,7 @@ a {
 }
 
 .leftSideNav {
-    padding: 72px 70px 0px 70px;
+    padding: 72px 70px 0px 45px;
 }
 
 .LHTop {
@@ -102,7 +98,7 @@ a {
     font-weight: 400;
 }
 
-.sideUL li a {
+.sideListColor{
     text-decoration: none;
     color: #2C5282;
 }
@@ -120,7 +116,7 @@ a {
     width: 98px;
 }
 
-.listHeading a {
+.listHeading-color{
     color: #4299E1;
 }
 
@@ -148,7 +144,7 @@ a {
 /* right side container */
 
 .rightSideContainer {
-    padding: 50px 36px 0px 23px;
+    padding: 36px 63px 0px 23px;
     width: 100%;
     background: #FFFFFF;
 }
@@ -171,10 +167,11 @@ tr {
 
 
 .tdmargin-setup {
-    margin-right: 142.85px;
+    margin-right: 141.5px;
 }
 
 .dataTitle {
+    width: 70px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -213,10 +210,9 @@ tr {
     border-radius: 5px;
     background: #2A4365;
     color: #FFFCFE;
-    margin-right: 0px;
 }
 
-.addNew1 .itemColor {
+.itemColor {
     margin-left: 14px;
     font-size: 16px;
     font-style: normal;
@@ -257,7 +253,6 @@ hr {
     font-weight: 400;
     line-height: 16px;
     color: #2A4365;
-    /* margin-right: 30px; */
 }
 
 .published {
@@ -286,7 +281,7 @@ hr {
     letter-spacing: 0em;
     text-align: left;
     color: #2c4464;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 
 .autherAdmin {
@@ -303,10 +298,10 @@ hr {
 
 .noneData {
     align-items: center;
-    margin-left: 20px;
+    margin-left: 13.5px;
 }
 
 .tableInsideData {
-    padding: 35px 40px 36px 30px;
+    padding: 36px 54px 36px 35px;
     background: #F7FAFC;
 }

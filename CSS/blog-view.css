@@ -28,24 +28,15 @@ header {
     align-items: center;
 }
 
-.symbols {
-    margin-left: 20px;
-    margin-top: -7px;
-}
-
-.symbolSetup {
-    /* width: 30px;
-    height: 30px; */
-    margin-top: 10px;
-}
-
 .title a {
     font-size: 20px;
-    width: 85px;
-    text-decoration: none;
+    font-style: normal;
     font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
     color: #FFFFFF;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .title span {
@@ -70,11 +61,16 @@ a {
     line-height: 18px;
     letter-spacing: 0em;
     color: #FFFCFE;
-    margin-right: 26px;
+    margin-right: 18px;
     padding: 7px 11px 7px 14px;
     background: #ED64A6;
     border-radius: 5px;
 }
+
+.accountHolderPlace {
+    margin-right: 26px;
+}
+
 
 /* container */
 
@@ -84,9 +80,8 @@ a {
 }
 
 .leftSideNav {
-    padding: 72px 70px 0px 70px;
+    padding: 72px 70px 0px 45px;
 }
-
 .LHTop {
     margin-top: 32px;
 }
@@ -102,7 +97,7 @@ a {
     font-weight: 400;
 }
 
-.sideUL li a {
+.sideListColor{
     text-decoration: none;
     color: #2C5282;
 }
@@ -120,7 +115,7 @@ a {
     width: 98px;
 }
 
-.listHeading a {
+.listHeading-color {
     color: #4299E1;
 }
 
@@ -166,14 +161,6 @@ tr {
     align-items: center;
 }
 
-.tableHeader {
-    display: flex;
-}
-
-.title-Col {
-    flex: 1;
-}
-
 .title-Col {
     font-size: 16px;
     font-style: normal;
@@ -182,6 +169,7 @@ tr {
     letter-spacing: 0em;
     text-align: left;
     color: #2C5282;
+    margin-right: 393px;
 }
 
 .status-Col {
@@ -192,7 +180,7 @@ tr {
     letter-spacing: 0em;
     text-align: left;
     color: #2C5282;
-    margin-right: 145px;
+    margin-right: 146px;
 }
 
 .stats-col {
@@ -203,7 +191,7 @@ tr {
     letter-spacing: 0em;
     text-align: left;
     color: #2C5282;
-    margin-right: 119px;
+    margin-right: 143.6px;
 }
 
 .addNew {
@@ -222,6 +210,7 @@ tr {
     display: flex;
     padding: 12px 24px 11px 21px;
     background: #2A4365;
+    margin-right: 0px;
 }
 
 .underLine {
@@ -235,7 +224,7 @@ hr {
 }
 
 .tableInsideData {
-    padding: 38px 35px 39px 30px;
+    padding: 38px 54px 39px 30px;
     background: #F7FAFC;
 }
 
@@ -278,10 +267,10 @@ hr {
     display: flex;
     align-items: center;
     width: 200px;
+    margin-right: 40px;
 }
 
 .number {
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -335,6 +324,10 @@ hr {
 
 .marginRight-00 {
     margin-left: 10px;
+}
+
+.none-data {
+    margin-right: 0px;
 }
 
 /* page numbers */

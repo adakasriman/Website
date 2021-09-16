@@ -28,24 +28,15 @@ header {
     align-items: center;
 }
 
-.symbols {
-    margin-left: 20px;
-    margin-top: -7px;
-}
-
-.symbolSetup {
-    /* width: 30px;
-    height: 30px; */
-    margin-top: 10px;
-}
-
 .title a {
     font-size: 20px;
-    width: 85px;
-    text-decoration: none;
+    font-style: normal;
     font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
     color: #FFFFFF;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .title span {
@@ -70,11 +61,16 @@ a {
     line-height: 18px;
     letter-spacing: 0em;
     color: #FFFCFE;
-    margin-right: 26px;
+    margin-right: 18px;
     padding: 7px 11px 7px 14px;
     background: #ED64A6;
     border-radius: 5px;
 }
+
+.accountHolderPlace {
+    margin-right: 26px;
+}
+
 
 /* container */
 
@@ -84,7 +80,7 @@ a {
 }
 
 .leftSideNav {
-    padding: 72px 70px 158px 70px;
+    padding: 72px 70px 153px 45px;
 }
 
 .LHTop {
@@ -98,9 +94,11 @@ a {
 .sideUL ul li {
     font-size: 18px;
     line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.sideUL li a {
+.sideListColor{
     text-decoration: none;
     color: #2C5282;
 }
@@ -118,7 +116,7 @@ a {
     width: 98px;
 }
 
-.listHeading a {
+.listHeading-color{
     color: #4299E1;
 }
 
@@ -142,6 +140,7 @@ a {
     width: 110px;
     padding-left: 12px;
 }
+
 
 /* rightSide */
 
@@ -237,6 +236,8 @@ nav ul li a {
 
 hr {
     border: 1px solid #E2E8F0;
+    width: 280px;
+    margin-left: 0;
 }
 
 .color-setup {
@@ -251,17 +252,21 @@ hr {
     padding: 123px 0px 122px 0px;
     background: #F7FAFC;
     margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .grid {
-    margin-top: -125px;
-    padding: 9px 0px 0px 9px;
+    margin-top: -250px;
+    padding: 20px 0px 0px 9px;
 }
 
 .addingSection-boxSetup {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto auto;
 }
 
 .newSectionColourSetup {
