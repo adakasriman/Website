@@ -312,7 +312,7 @@ hr {
     margin-left: 12px;
     color: #2a4365;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 756px) {
     body {
         header {
             width: 100vw;
@@ -321,17 +321,102 @@ hr {
             width: 100vw;
             height: 100vh;
             .container {
-                display: flex; 
+                display: flex;
                 flex-direction: column;
                 aside {
                     background: #ffffff;
                 }
                 & .leftSideNav {
                     padding: 0;
+                    margin-left: -40px;
 
-                    & .sideUL {                    
+                    & .sideUL {
                         background: #e2e8f0;
-                        width: 100vw;
+                        display: none;
+
+                        li {
+                            margin: 15px 0;
+                            border: 2px solid black;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                            border-radius: 5px;
+                        }
+                        .listMargins {
+                            display: flex;
+                            justify-content: center;
+                            margin: 20px 0;
+                        }
+                        .listHeading-color {
+                            margin-left: -80px;
+                        }
+                        .present-page {
+                            margin-left: -20px;
+                        }
+                        .listHeading {
+                            border: none;
+                        }
+                        .LHTop {
+                            width: 100%;
+                            margin-left: 10px;
+                        }
+                    }
+                    label {
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                        margin: 20px 0px 0 40px;
+                        width: 25px;
+                        display: block;
+                        cursor: pointer;
+                    }
+
+                    #toggle:checked + .sideUL {
+                        display: block;
+                        // width: 40vw;
+                    }
+                }
+            }
+            & .rightSideContainer {
+                padding: 0px 0px 20px 0px;
+                & .rightSideContainerHeader {
+                    display: flex;
+                    flex-direction: column;
+
+                    ul {
+                        margin-top: 20px;
+                        margin-left: -50px;
+                    }
+                }
+                .lastConatainer {
+                    height: 60vh;
+                    padding: 0 15px 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        header {
+            width: 100vw;
+        }
+        section {
+            width: 100vw;
+            height: 100vh;
+            .container {
+                display: flex;
+                flex-direction: column;
+                aside {
+                    background: #ffffff;
+                }
+                & .leftSideNav {
+                    padding: 0;
+                    margin-left: -40px;
+
+                    & .sideUL {
+                        background: #e2e8f0;
                         display: none;
 
                         & .listHeading {
@@ -339,6 +424,10 @@ hr {
                         }
                         .listMargins {
                             margin: 13px 0;
+                        }
+                        .LHTop {
+                            width: 100%;
+                            margin-left: 10px;
                         }
                     }
                     label {
