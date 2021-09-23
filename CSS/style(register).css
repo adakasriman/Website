@@ -12,10 +12,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .symbolsAndTitle {
-    flex: 1;
     margin-left: 59.5px;
 }
 
@@ -56,7 +56,6 @@ header {
 .register-page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -81,14 +80,19 @@ header {
     color: #3182CE;
 }
 
-.userEmailPassword {
-    width: 512px;
+.UserEmailPasswordAndRegister {
+    padding: 0 40px;
     background: #FFFFFF;
     border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     margin-bottom: 109px;
+}
+
+.UserEmailPassword {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* fullName */
@@ -210,9 +214,7 @@ header {
 }
 
 .register {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    text-align: right;
     margin-top: 56px;
     margin-bottom: 48px;
 }
@@ -227,4 +229,177 @@ header {
     padding: 18px 70px 20px 70px;
     background: #2A4365;
     border-radius: 5px;
+}
+
+
+/* media quires */
+
+
+@media (max-width: 1200px){
+    body {
+        height: 100vh;
+    }
+    .loginPage-title {
+        margin: 40px 0px 30px 0;
+        font-size: 30px;
+    }
+    .UserEmailPasswordAndRegister {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        height: 100vh;
+    }
+    .loginPage-title {
+        margin: 30px 0 20px 0;
+        font-size: 28px;
+    }
+    .signIn-InHeader a{
+        padding: 5px 22px;
+    }
+    .UserEmailPasswordAndRegister {
+        margin-bottom: 0px;
+    }
+    .UserEmailPasswordAndRegister {
+        padding: 0 35px;
+        margin-bottom: 20px;
+    }
+    .userTextBeforSymbols img{
+        width: 22px;
+        color: black;
+    }
+    .symbolsAndFullName {
+        margin: 0px 0px -10px 0;
+    }
+    .userName{
+        margin-left: 8px;
+        font-size: 20px;
+        color: #2A4365;
+    }
+    .userNameAndInputBox {
+        margin-top: 20px;
+    }
+    .symbolsAndemail {
+        margin: 0px 0px -10px 0;
+    }
+    .emailTextBeforSymbols img{
+        width: 22px;
+        color: black;
+        margin-top: 2px;
+    }
+    .input-styling {
+        width: 356px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .symbolAndPassword {
+        margin: 0px 0px -10px 0;
+    }
+    .emailInput-styling {
+        height: 50px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .password {
+        margin-left: 8px;
+        font-size: 20px;
+        color: #2A4365;
+    }
+    .passwordTextBeforSymbols img{
+        width: 22px;
+        color: black;
+    }
+    .passwordInput-styling{
+        height: 50px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .register {
+        margin-top:  35px;
+        margin-bottom: 35px;
+    }
+    .register-styling a{
+        padding: 10px 30px;
+    }
+} 
+
+@media (max-width: 576px) {
+    body {
+        height: 100vh;
+    }
+    .signIn-InHeader a{
+        padding: 5px 20px;
+    }
+    .loginPage-title {
+        margin: 30px 0px 20px 0;
+        font-size: 25px;
+    }
+    .UserEmailPasswordAndRegister {
+        padding: 0 25px;
+        margin-bottom: 20px;
+    }
+    .userTextBeforSymbols img{
+        width: 22px;
+        color: black;
+    }
+    .symbolsAndFullName {
+        margin: 0px 0px -10px 0;
+    }
+    .userName{
+        margin-left: 8px;
+        font-size: 20px;
+        color: #2A4365;
+    }
+    .userNameAndInputBox {
+        margin-top: 20px;
+    }
+    .symbolsAndemail {
+        margin: 0px 0px -10px 0;
+    }
+    .emailTextBeforSymbols img{
+        width: 22px;
+        color: black;
+        margin-top: 2px;
+    }
+    .input-styling {
+        width: 356px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .symbolAndPassword {
+        margin: 0px 0px -10px 0;
+    }
+    .EmailPassword {
+        margin-left: 8px;
+        font-size: 20px;
+        color: #2A4365;
+    }
+    .emailInput-styling {
+        height: 45px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .password {
+        margin-left: 8px;
+        font-size: 20px;
+        color: #2A4365;
+    }
+    .passwordTextBeforSymbols img{
+        width: 22px;
+        color: black;
+    }
+    .passwordInput-styling{
+        height: 45px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .register {
+        margin-top:  35px;
+        margin-bottom: 35px;
+    }
+    .register-styling a{
+        padding: 10px 30px;
+    }
 }

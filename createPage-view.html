@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="/CSS/createPage-view.css">
+    <link rel="styleSheet" href="/CSS/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Create Page View</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="symbolsAndTitle">
             <div class="symbols">
                 <div class="headerSymbol">
@@ -38,6 +40,10 @@
             <aside>
                 <div class="leftSideNav">
                     <nav>
+                        <label for="toggle" class="checkbtn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <input type="checkbox" id="toggle" class="checkbtn">
                         <ul class="sideUL">
                             <li class=" listMargins listHeading"><a class="listHeading-color" href="">Manage</a></li>
                             <li class="listMargins list-flex">
@@ -113,7 +119,8 @@
                                     <a class="sideListColor" href="">Archived pages</a>
                                 </div>
                             </li>
-                            <li class="listMargins listHeading LHTop"><a class="listHeading-color" href="">Pro features</a></li>
+                            <li class="listMargins listHeading LHTop"><a class="listHeading-color" href="">Pro
+                                    features</a></li>
                             <li class="listMargins list-flex">
                                 <div class="listImage">
                                     <a href="">
@@ -165,10 +172,15 @@
                     </div>
                     <div class="containerHeaderNav">
                         <nav>
-                            <ul class="listType list-flex">
-                                <li><a class="jBloggs-setup" href="">Joe Bloggs</a></li>
-                                <li><a class="admin-setup" href="">Admin</a></li>
-                                <li class="list-flex paddingForSP">
+                            <label for="toggle2" class="checkbutton">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="toggle2" class="checkbtn">
+                            <ul id="unOrder-list" class="listType list-flex">
+                                <li class="joe"><a class="jBloggs-setup" href="">Joe Bloggs</a></li>
+                                <li class="admin"><a class="admin-setup" href=""><span
+                                            class="admin-margins">Admin</span></a></li>
+                                <li class="list-flex paddingForSP ">
                                     <div class="clock">
                                         <a href="clock-setup">
                                             <img src="/IMG//clock.png" alt="">
@@ -192,22 +204,25 @@
                         </nav>
                     </div>
                 </div>
-                <div class="addingSection">
-                    <div class="grid"><img src="/IMG/grid.png" alt=""></div>
-                    <div class="addingSection-boxSetup">
-                        <div class="circle-plus">
-                            <a href="circle-plussetup">
-                                <img src="/IMG/plus-circle.png" alt="">
-                            </a>
-                        </div>
-                        <div class="newSection-setup">
-                            <a class="newSectionColourSetup" href="">Add new section</a>
+                <div class="lastConatainer">
+                    <div class="addingSection">
+                        <div class="grid"><img src="/IMG/grid.png" alt=""></div>
+                        <div class="addingSection-boxSetup">
+                            <div class="circle-plus">
+                                <a href="circle-plussetup">
+                                    <img src="/IMG/plus-circle.png" alt="">
+                                </a>
+                            </div>
+                            <div class="newSection-setup">
+                                <a class="newSectionColourSetup" href="">Add new section</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="/script/create-pageView.js"></script>
 </body>
 
 </html>

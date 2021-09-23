@@ -1,0 +1,419 @@
+// /* start of desktop styles */
+
+// @media screen and (max-width: 991px) {
+//     /* start of large tablet styles */
+
+//     }
+
+//     @media screen and (max-width: 767px) {
+//     /* start of medium tablet styles */
+
+//     }
+
+//     @media screen and (max-width: 479px) {
+//     /* start of phone styles */
+
+//     }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background: #e5e5e5;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #2d3748;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.symbolsAndTitle {
+    margin-left: 75px;
+}
+
+.symbolsAndTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title a {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+.title span {
+    font-weight: 500;
+    color: #3182ce;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.proPlan {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #fffcfe;
+    margin-right: 18px;
+    padding: 7px 11px 7px 14px;
+    background: #ed64a6;
+    border-radius: 5px;
+}
+
+.accountHolderPlace {
+    margin-right: 26px;
+}
+
+/* container */
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.leftSideNav {
+    padding: 72px 70px 153px 45px;
+
+    #toggle {
+        display: none;
+    }
+    .checkbtn {
+        display: none;
+    }
+}
+
+.LHTop {
+    margin-top: 32px;
+}
+
+.sideUL {
+    list-style-type: none;
+}
+
+.sideUL ul li {
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sideListColor {
+    text-decoration: none;
+    color: #2c5282;
+}
+
+.listHeading {
+    margin-bottom: 32px;
+}
+
+.listName {
+    width: 24px;
+    height: 24px;
+}
+
+.LHTop {
+    width: 98px;
+}
+
+.listHeading-color {
+    color: #4299e1;
+}
+
+.listMargins {
+    margin: 31px 0px;
+}
+
+.viewSiteStyle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.list-flex {
+    display: flex;
+    align-items: center;
+}
+
+.listName {
+    width: 110px;
+    padding-left: 12px;
+}
+
+/* rightSide */
+
+.rightSideContainer {
+    padding: 38px 31px 29px 38px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.rightSideContainerHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & #toggle2 {
+        display: none;
+    }
+}
+
+.line {
+    flex: 1;
+}
+
+.line {
+    color: #e2e8f0;
+    /* border: 1px solid #E2E8F0; */
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.home-pageSetup {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2a4365;
+    text-decoration: none;
+}
+
+nav {
+    #checkbtn {
+        display: none;
+    }
+    .checkbutton {
+        display: none;
+    }
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.admin-setup {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 5px 17px;
+    color: #fffcfe;
+    background: #2c5282;
+    border-radius: 50px;
+}
+
+.jBloggs-setup {
+    width: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #2a4365;
+}
+
+.clock {
+    width: 24px;
+    height: 24px;
+}
+
+.eye {
+    width: 24px;
+    height: 24px;
+}
+
+.paddingForSP {
+    padding: 12px 14px;
+    background: #bee3f8;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.paddingForPP {
+    padding: 12px 18px;
+    background: #2a4365;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #e2e8f0;
+    width: 280px;
+    margin-left: 0;
+}
+
+.color-setup {
+    text-decoration: none;
+    color: #fffcfe;
+    margin-left: 14px;
+}
+
+.addingSection {
+    width: 100%;
+    border: 1px solid #bee3f8;
+    padding: 123px 0px 122px 0px;
+    background: #f7fafc;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid {
+    margin-top: -250px;
+    padding: 20px 0px 0px 9px;
+}
+
+.addingSection-boxSetup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.newSectionColourSetup {
+    width: 134px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    margin-left: 12px;
+    color: #2a4365;
+}
+@media screen and (max-width: 576px) {
+    body {
+        header {
+            width: 100vw;
+        }
+        section {
+            width: 100vw;
+            height: 100vh;
+            .container {
+                display: flex; 
+                flex-direction: column;
+                aside {
+                    background: #ffffff;
+                }
+                & .leftSideNav {
+                    padding: 0;
+
+                    & .sideUL {                    
+                        background: #e2e8f0;
+                        width: 100vw;
+                        display: none;
+
+                        & .listHeading {
+                            padding: 5px 0;
+                        }
+                        .listMargins {
+                            margin: 13px 0;
+                        }
+                    }
+                    label {
+                        position: relative;
+                        top: 20px;
+                        margin: 20px 0px 0 40px;
+                        width: 25px;
+                        display: block;
+                        cursor: pointer;
+                    }
+
+                    #toggle:checked + .sideUL {
+                        display: block;
+                        // width: 40vw;
+                    }
+                }
+            }
+            & .rightSideContainer {
+                padding: 0px 0px 20px 0px;
+                & .rightSideContainerHeader {
+                    display: flex;
+                    flex-direction: column;
+                    ul {
+                        display: block;
+                        text-align: center;
+                        margin-right: 55px;
+
+                        li {
+                            height: 50px;
+                            width: 280px;
+                            background: #2c5282;
+                            margin-bottom: 10px;
+                            border-radius: 5px;
+                        }
+                        .joe {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .jBloggs-setup {
+                            width: 100px;
+                            color: #fffcfe;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        .admin {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .admin-setup {
+                            background: none;
+                            padding: 0;
+                            font-size: 17px;
+
+                            .admin-margins {
+                            }
+                        }
+                        .paddingForSP {
+                            padding: 0;
+
+                            .clock {
+                                margin-left: 70px;
+                            }
+                        }
+                        .paddingForPP {
+                            padding: 0;
+                            justify-content: center;
+                        }
+                    }
+                }
+                .lastConatainer {
+                    padding: 0 15px 0 15px;
+                }
+            }
+        }
+    }
+}

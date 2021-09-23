@@ -119,12 +119,10 @@ body {
 .forgotAndSignIn {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 43px;
 }
 
-.forgot {
-    flex: 1;
-}
 
 .forgotPossword-styling a{
     font-weight: 400;
@@ -133,15 +131,13 @@ body {
     text-decoration: none;
 }
 
-.signIn {
-    background: #2A4365;
-    padding: 18px 71px 18px 70px;
-    border-radius: 5px;
-}
 .signIn-styling {
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
+    background: #2A4365;
+    padding: 18px 71px 18px 70px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
@@ -160,4 +156,90 @@ body {
     font-size: 20px;
     color: #2A4365;
     text-decoration: none;
+}
+
+
+/* @media (max-width: 1400px){
+    body {
+        height: 100vh;
+    }
+    .loginPage-title {
+        margin: 50px 0px;
+    }
+    .EmailPassword {
+        margin-bottom: 0px;
+    }
+} */
+
+@media (max-width: 1200px){
+    body {
+        height: 100vh;
+        margin-top: 100px;
+    }
+    .loginPage-title {
+        margin: 50px 0px;
+        font-size: 30px;
+    }
+    .EmailPassword {
+       margin-bottom: 200px;
+    }
+}
+
+
+@media (max-width: 768px){
+    body {
+        height: 100vh;
+    }
+    .loginPage-title {
+        margin: 40px 0;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        height: 100vh;
+        margin:0;
+    }
+    .loginPage-title {
+        margin: 0px 0px 30px 0;
+        font-size: 30px;
+    }
+    .EmailPassword {
+        /* padding: 10px; */
+        width: 430px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .symbolsAndemail {
+        margin: 0px 0px 15px 0;
+    }
+    .emailAddress {
+        margin-left: 5px;
+    }
+    .emailInput-styling{
+        height: 60px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .symbolAndPassword {
+        margin: 15px 0;
+    }
+    .password {
+        font-size: 20px;
+    }
+    .passwordInput-styling{
+        height: 60px;
+        width: 356px;
+        font-size: 20px;
+    }
+    .creatingAccount{
+        padding: 15px;
+    }
+    .forgotPossword-styling a{
+        font-size: 20px;
+    }
+    .signIn-styling {
+        padding: 15px 50px;
+    }
 }
