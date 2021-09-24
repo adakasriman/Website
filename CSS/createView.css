@@ -351,6 +351,93 @@ hr {
   background: #f7fafc;
 }
 
+@media (max-width: 992px) {
+  body header {
+    width: 100vw;
+  }
+  body section {
+    width: 100vw;
+    height: 100vh;
+  }
+  body section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .container .leftSideNav {
+    padding: 0;
+    margin-left: -40px;
+    background: #ffffff;
+  }
+  body section .container .leftSideNav .sideUL {
+    margin-top: 80px;
+    background: #e2e8f0;
+    display: none;
+  }
+  body section .container .leftSideNav .sideUL li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+  }
+  body section .container .leftSideNav .sideUL .listMargins {
+    margin: 20px 0;
+  }
+  body section .container .leftSideNav .sideUL .listHeading-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -70px;
+  }
+  body section .container .leftSideNav .sideUL .present-page {
+    margin-left: -20px;
+  }
+  body section .container .leftSideNav .sideUL .listHeading {
+    border: none;
+  }
+  body section .container .leftSideNav .sideUL .LHTop {
+    width: 100%;
+    margin-left: 10px;
+  }
+  body section .container .leftSideNav label {
+    margin-top: 20px;
+    text-align: center;
+    background: #2a4365;
+    padding: 20px 0;
+    color: #fffcfe;
+    border-radius: 100px;
+    margin-left: 48px;
+    width: 93%;
+    display: block;
+    cursor: pointer;
+  }
+  body section .container .leftSideNav label::after {
+    content: attr(adding);
+    margin-left: 20px;
+  }
+  body section .container .leftSideNav #toggle:checked + .sideUL {
+    display: block;
+  }
+  body section .container .rightSideContainer {
+    padding: 30px 0 0 10px;
+  }
+  body section .container .rightSideContainer table tr .dataTitle {
+    margin-left: 3px;
+  }
+}
+
 @media (max-width: 768px) {
   body header {
     width: 100vw;
