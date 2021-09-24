@@ -311,6 +311,96 @@ hr {
 
 // media query
 
+@media (max-width: 992px) {
+    body {
+        header {
+            width: 100vw;
+        }
+        section {
+            width: 100vw;
+            height: 100vh;
+            .container {
+                display: flex;
+                flex-direction: column;
+                & .leftSideNav {
+                    padding: 0;
+                    margin-left: -40px;
+                    background: #ffffff;
+
+                    & .sideUL {
+                        margin-top: 80px;
+                        background: #e2e8f0;
+                        display: none;
+
+                        li {
+                            justify-content: center;
+                            margin: 15px 0;
+                            border: 2px solid black;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                            border-radius: 5px;
+                        }
+                        .listMargins {
+                            margin: 20px 0;
+                        }
+                        .listHeading-color {
+                            display: flex;
+                            justify-content: center;
+                            margin-left: -70px;
+                        }
+                        .present-page {
+                            margin-left: -20px;
+                        }
+                        .listHeading {
+                            border: none;
+                        }
+                        .LHTop {
+                            width: 100%;
+                            margin-left: 10px;
+                        }
+                    }
+                    label {
+                        margin-top: 20px;
+                        text-align: center;
+                        background:#2a4365;
+                        padding: 20px 0;
+                        color: #fffcfe;
+                        border-radius: 100px;
+                        // position: relative;
+                        // top: 55px;
+                        // left: 30px;
+                        margin-left: 48px;
+                        width: 93%;
+                        display: block;
+                        cursor: pointer;
+                    }
+                    label::after {
+                       content: attr(adding);
+                       margin-left: 20px;
+                    }
+
+                    #toggle:checked + .sideUL {
+                        display: block;
+                        // width: 40vw;
+                    }
+                }
+                .rightSideContainer {
+                   padding: 30px 0 0 10px;
+
+                   table {
+                       tr {
+                           .dataTitle {
+                               margin-left: 3px;
+                           }
+                       }
+                   }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
     body {
         header {
@@ -380,7 +470,7 @@ hr {
 
                     table {
                         tr {
-                            background:#2d3748;;
+                            background: #2d3748;
                             .dataTitle,
                             .dataPostedTime,
                             .dataPublished,
@@ -422,7 +512,7 @@ hr {
                             color: black;
                             text-align: right;
                             font-weight: normal;
-                            color: #fffcfe
+                            color: #fffcfe;
                         }
                         .postedTime {
                             font-size: 15px;
@@ -461,7 +551,7 @@ hr {
                                 color: #fffcfe;
                                 text-align: right;
                                 font-weight: normal;
-                                color: #fffcfe
+                                color: #fffcfe;
                             }
                         }
                         .noneData {
@@ -493,7 +583,6 @@ hr {
         }
     }
 }
-
 
 @media (max-width: 576px) {
     body {
@@ -564,7 +653,7 @@ hr {
 
                     table {
                         tr {
-                            background:#2d3748;;
+                            background: #2d3748;
                             .dataTitle,
                             .dataPostedTime,
                             .dataPublished,
@@ -606,7 +695,7 @@ hr {
                             color: black;
                             text-align: right;
                             font-weight: normal;
-                            color: #fffcfe
+                            color: #fffcfe;
                         }
                         .postedTime {
                             font-size: 15px;
@@ -645,7 +734,7 @@ hr {
                                 color: #fffcfe;
                                 text-align: right;
                                 font-weight: normal;
-                                color: #fffcfe
+                                color: #fffcfe;
                             }
                         }
                         .noneData {
@@ -677,4 +766,3 @@ hr {
         }
     }
 }
-
