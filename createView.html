@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="/CSS/createView.css">
+    <link rel="styleSheet" href="/CSS/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -37,6 +38,10 @@
         <div class="container">
             <div class="leftSideNav">
                 <nav>
+                    <label for="toggle" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="toggle" class="checkbtn">
                     <ul class="sideUL">
                         <li class="listHeading"><a class="listHeading-color" href="">Manage</a></li>
                         <li class="list-flex">
@@ -58,6 +63,9 @@
                             <div class="listName">
                                 <a class="sideListColor" href="/createView.html">Create page</a>
                             </div>
+                            <div>
+                                <img class="present-page" src="/IMG/Ellipse.png" alt="">
+                            </div>
                         </li>
                         <li class="listMargins list-flex">
                             <div class="listImage">
@@ -77,9 +85,6 @@
                             </div>
                             <div class="listName">
                                 <a class="sideListColor" href="/fileView-page.html">Files</a>
-                            </div>
-                            <div>
-                                <img src="/IMG/Ellipse.png" alt="">
                             </div>
                         </li>
                         <li class="listMargins list-flex">
@@ -162,47 +167,47 @@
                             </th>
                             <th class="header_lastItem">
                                 <div class="addNewAndSymbol">
-                                <div class="PenImage">
-                                    <a href="">
-                                    <img src="/IMG/file-plus1.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="addNew1">
-                                    <a class="itemColor" href="">Add new</a>
-                                </div>
+                                    <div class="PenImage">
+                                        <a href="">
+                                            <img src="/IMG/file-plus1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="addNew1">
+                                        <a class="itemColor" href="">Add new</a>
+                                    </div>
                                 </div>
                             </th>
                         </tr>
-                        <tr>
+                        <tr class="horizantal-line">
                             <td class="underLine">
                                 <hr>
                             </td>
                         </tr>
                         <tr class="tableInsideData">
-                            <td class="titleData datamargin-setup">
+                            <td data-label="Page title :" class="titleData datamargin-setup data-label">
                                 Home_page
                             </td>
-                            <td class="postedTime datamargin-setup">
+                            <td data-label="Created :" class="postedTime datamargin-setup data-label">
                                 Updated 3 weeks ago
                             </td>
-                            <td class="published datamargin-setup">Published</td>
-                            <td class="autherAndAdmin datamargin-setup">
+                            <td data-label="Status :" class="published datamargin-setup data-label">Published</td>
+                            <td data-label="Auther :" class="autherAndAdmin datamargin-setup">
                                 <div class="autherDate">Joe Bloggs</div>
                                 <div class="autherAdmin">Admin</div>
                             </td>
-                            <td class="noneData">
+                            <td class="noneData data-label">
                                 <img src="/IMG/more-horizontal.png" alt="">
                             </td>
                         </tr>
                         <tr class="tableInsideData">
-                            <td class="titleData datamargin-setup">
+                            <td data-label="Page title :" class="titleData datamargin-setup">
                                 About_page
                             </td>
-                            <td class="postedTime datamargin-setup">
+                            <td data-label="Created :" class="postedTime datamargin-setup">
                                 Updated 3 weeks ago
                             </td>
-                            <td class="published datamargin-setup">Published</td>
-                            <td class="autherAndAdmin datamargin-setup">
+                            <td data-label="Status :" class="published datamargin-setup">Published</td>
+                            <td data-label="Auther :" class="autherAndAdmin datamargin-setup">
                                 <div class="autherDate">Joe Bloggs</div>
                                 <div class="autherAdmin">Admin</div>
                             </td>
@@ -211,14 +216,14 @@
                             </td>
                         </tr>
                         <tr class="tableInsideData">
-                            <td class="titleData datamargin-setup">
+                            <td data-label="Page title :" class="titleData datamargin-setup">
                                 Home_page
                             </td>
-                            <td class="postedTime datamargin-setup">
+                            <td data-label="Created :" class="postedTime datamargin-setup">
                                 Updated 3 weeks ago
                             </td>
-                            <td class="published datamargin-setup">Published</td>
-                            <td class="autherAndAdmin datamargin-setup">
+                            <td data-label="Status :" class="published datamargin-setup">Published</td>
+                            <td data-label="Auther :" class="autherAndAdmin datamargin-setup">
                                 <div class="autherDate">Joe Bloggs</div>
                                 <div class="autherAdmin">Admin</div>
                             </td>
@@ -227,14 +232,14 @@
                             </td>
                         </tr>
                         <tr class="tableInsideData">
-                            <td class="titleData datamargin-setup">
+                            <td data-label="Page title :" class="titleData datamargin-setup">
                                 About_page
                             </td>
-                            <td class="postedTime datamargin-setup">
+                            <td data-label="Created :" class="postedTime datamargin-setup">
                                 Updated 3 weeks ago
                             </td>
-                            <td class="published datamargin-setup">Published</td>
-                            <td class="autherAndAdmin datamargin-setup">
+                            <td data-label="Status :" class="published datamargin-setup">Published</td>
+                            <td data-label="Auther :" class="autherAndAdmin datamargin-setup">
                                 <div class="autherDate">Joe Bloggs</div>
                                 <div class="autherAdmin">Admin</div>
                             </td>
@@ -243,14 +248,14 @@
                             </td>
                         </tr>
                         <tr class="tableInsideData">
-                            <td class="titleData datamargin-setup">
+                            <td data-label="Page title :" class="titleData datamargin-setup">
                                 About_page
                             </td>
-                            <td class="postedTime datamargin-setup">
+                            <td data-label="Created :" class="postedTime datamargin-setup">
                                 Updated 3 weeks ago
                             </td>
-                            <td class="published datamargin-setup">Published</td>
-                            <td class="autherAndAdmin datamargin-setup">
+                            <td data-label="Status :" class="published datamargin-setup">Published</td>
+                            <td data-label="Auther :" class="autherAndAdmin datamargin-setup">
                                 <div class="autherDate">Joe Bloggs</div>
                                 <div class="autherAdmin">Admin</div>
                             </td>
@@ -263,6 +268,7 @@
             </div>
         </div>
     </section>
+    <script src="/script/create-pageView.js"></script>
 </body>
 
 </html>
