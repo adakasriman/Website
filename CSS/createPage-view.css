@@ -352,6 +352,48 @@ hr {
   color: #2a4365;
 }
 
+@media (max-width: 992px) {
+  body header {
+    width: 100vw;
+  }
+  body section {
+    width: 100vw;
+    height: 100vh;
+  }
+  body section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body section .container .leftSideNav {
+    padding: 25px 20px 0 20px;
+  }
+  body section .rightSideContainer {
+    padding: 20px 0px 20px 0px;
+  }
+  body section .rightSideContainer .rightSideContainerHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .rightSideContainer .rightSideContainerHeader ul {
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+  body section .rightSideContainer .lastConatainer {
+    height: 60vh;
+    padding: 0 15px 0 15px;
+  }
+}
+
 @media (max-width: 756px) {
   body header {
     width: 100vw;
