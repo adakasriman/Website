@@ -1,307 +1,739 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
 }
 
 header {
-    width: 100%;
-    height: 80px;
-    background: #2D3748;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #2d3748;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .symbolsAndTitle {
-    flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .symbolsAndTitle {
-    margin-left: 75px;
+  margin-left: 75px;
 }
 
 .symbolsAndTitle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .title a {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 0px;
 }
 
 .title span {
-    font-weight: 500;
-    color: #3182CE;
+  font-weight: 500;
+  color: #3182ce;
 }
 
 .headerLeft {
-    display: flex;
-    align-items: center;
-    margin-right: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 26px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .proPlan {
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0em;
-    color: #FFFCFE;
-    margin-right: 18px;
-    padding: 7px 11px 7px 14px;
-    background: #ED64A6;
-    border-radius: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #fffcfe;
+  margin-right: 18px;
+  padding: 7px 11px 7px 14px;
+  background: #ed64a6;
+  border-radius: 5px;
 }
 
 .accountHolderPlace {
-    margin-right: 26px;
+  margin-right: 26px;
 }
 
-
 /* container */
-
 .container {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .leftSideNav {
-    padding: 72px 70px 0px 45px;
+  padding: 72px 70px 0px 45px;
+}
+
+.leftSideNav #toggle {
+  display: none;
+}
+
+.leftSideNav .checkbtn {
+  display: none;
 }
 
 .LHTop {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .sideUL {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .sideUL ul li {
-    font-size: 18px;
-    line-height: 21px;
-    font-style: normal;
-    font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.sideListColor{
-    text-decoration: none;
-    color: #2C5282;
+.sideListColor {
+  text-decoration: none;
+  color: #2c5282;
 }
 
 .listHeading {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .listName {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .LHTop {
-    width: 98px;
+  width: 98px;
 }
 
-.listHeading-color{
-    color: #4299E1;
+.listHeading-color {
+  color: #4299e1;
 }
 
 .listMargins {
-    margin: 31px 0px;
+  margin: 31px 0px;
 }
 
 .viewSiteStyle {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 21px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
 }
 
 .list-flex {
-    display: flex;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .listName {
-    width: 110px;
-    padding-left: 12px;
+  width: 110px;
+  padding-left: 12px;
 }
 
 /* right side container */
-
 .rightSideContainer {
-    padding: 36px 63px 0px 23px;
-    width: 100%;
-    background: #FFFFFF;
+  padding: 36px 63px 0px 23px;
+  width: 100%;
+  background: #ffffff;
 }
+
 table {
-    margin-bottom: 153px;
+  margin-bottom: 153px;
 }
 
 table tr {
-    display: flex;
-    margin-bottom: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 19px;
 }
 
 tr {
-    align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tableHeader {
-    width: 100%;
+  width: 100%;
 }
 
-
 .tdmargin-setup {
-    margin-right: 141.5px;
+  margin-right: 141.5px;
 }
 
 .dataTitle {
-    width: 70px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    color: #2C5282;
+  width: 70px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #2c5282;
 }
 
 .dataPostedTime {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    color: #2C5282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #2c5282;
 }
 
 .dataPublished {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    color: #2C5282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #2c5282;
 }
 
 .dataAuther {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    color: #2C5282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #2c5282;
 }
 
 .addNewAndSymbol {
-    display: flex;
-    align-items: center;
-    padding: 12px 24px 11px 24px;
-    border-radius: 5px;
-    background: #2A4365;
-    color: #FFFCFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 24px 11px 24px;
+  border-radius: 5px;
+  background: #2a4365;
+  color: #fffcfe;
 }
 
 .itemColor {
-    margin-left: 14px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    color: #FFFCFE;
-} 
-
+  margin-left: 14px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fffcfe;
+}
 
 .underLine {
-    width: 100%;
+  width: 100%;
 }
+
 hr {
-    width: 100%;
-    padding: 1px;
-    background: #E2E8F0;
-    border: none;
+  width: 100%;
+  padding: 1px;
+  background: #e2e8f0;
+  border: none;
 }
 
 .datamargin-setup {
-    margin-right: 83px;
-    text-align: center;
+  margin-right: 83px;
+  text-align: center;
 }
 
 .titleData {
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    color: #2A4365;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  color: #2a4365;
 }
 
 .postedTime {
-    width: 134px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    color: #2A4365;
+  width: 134px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #2a4365;
 }
 
 .published {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    color: #FFFFFF;
-    padding: 7px 23px 6px 26px;
-    background: #9AE6B4;
-    border-radius: 50px;
-    margin-left: -22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 7px 23px 6px 26px;
+  background: #9ae6b4;
+  border-radius: 50px;
+  margin-left: -22px;
 }
 
 .autherAndAdmin {
-    display: flex;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .autherDate {
-    width: 70px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2c4464;
-    margin-left: -15px;
+  width: 70px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c4464;
+  margin-left: -15px;
 }
 
 .autherAdmin {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px;
-    color: #fffcff;
-    padding: 5px 16px 5px 15px;
-    background: #2C5282;
-    border-radius: 50px;
-    margin-left: 23px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  color: #fffcff;
+  padding: 5px 16px 5px 15px;
+  background: #2c5282;
+  border-radius: 50px;
+  margin-left: 23px;
 }
 
 .noneData {
-    align-items: center;
-    margin-left: 13.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 13.5px;
 }
 
 .tableInsideData {
-    padding: 36px 54px 36px 35px;
-    background: #F7FAFC;
+  padding: 36px 54px 36px 35px;
+  background: #f7fafc;
 }
+
+@media (max-width: 768px) {
+  body header {
+    width: 100vw;
+  }
+  body section {
+    width: 100vw;
+    height: 100vh;
+  }
+  body section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .container .leftSideNav {
+    padding: 0;
+    margin-left: -40px;
+    background: #ffffff;
+  }
+  body section .container .leftSideNav .sideUL {
+    margin-top: 80px;
+    background: #e2e8f0;
+    display: none;
+  }
+  body section .container .leftSideNav .sideUL li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+  }
+  body section .container .leftSideNav .sideUL .listMargins {
+    margin: 20px 0;
+  }
+  body section .container .leftSideNav .sideUL .listHeading-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -70px;
+  }
+  body section .container .leftSideNav .sideUL .present-page {
+    margin-left: -20px;
+  }
+  body section .container .leftSideNav .sideUL .listHeading {
+    border: none;
+  }
+  body section .container .leftSideNav .sideUL .LHTop {
+    width: 100%;
+    margin-left: 10px;
+  }
+  body section .container .leftSideNav label {
+    position: relative;
+    top: 55px;
+    left: 680px;
+    margin-left: 45px;
+    width: 25px;
+    display: block;
+    cursor: pointer;
+  }
+  body section .container .leftSideNav #toggle:checked + .sideUL {
+    display: block;
+  }
+  body section .container .rightSideContainer table tr {
+    background: #2d3748;
+  }
+  body section .container .rightSideContainer table tr .dataTitle,
+  body section .container .rightSideContainer table tr .dataPostedTime,
+  body section .container .rightSideContainer table tr .dataPublished,
+  body section .container .rightSideContainer table tr .dataAuther {
+    display: none;
+  }
+  body section .container .rightSideContainer table tr .addNewAndSymbol {
+    position: relative;
+    top: -20px;
+    left: 0px;
+  }
+  body section .container .rightSideContainer table .tableHeader {
+    background: none;
+  }
+  body section .container .rightSideContainer table .noneData {
+    display: none;
+  }
+  body section .container .rightSideContainer table td {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  body section .container .rightSideContainer table td .autherAdmin {
+    margin-left: 5px;
+  }
+  body section .container .rightSideContainer table .horizantal-line {
+    display: none;
+  }
+  body section .container .rightSideContainer table .titleData {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    font-weight: normal;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .postedTime {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .published {
+    padding: 5px 0;
+    border-radius: 0;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    background: none;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin .autherDate {
+    width: 100px;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin .autherAdmin {
+    padding: 5px 5px;
+    border-radius: 5;
+    background: black;
+    font-size: 15px;
+    color: #fffcfe;
+    text-align: right;
+    font-weight: normal;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .noneData {
+    text-align: right;
+  }
+  body section .container .rightSideContainer table .tableInsideData {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    width: 90vw;
+  }
+  body section .container .rightSideContainer table hr {
+    display: none;
+  }
+  body section .container .rightSideContainer table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6eb4;
+  }
+}
+
+@media (max-width: 576px) {
+  body header {
+    width: 100vw;
+  }
+  body section {
+    width: 100vw;
+    height: 100vh;
+  }
+  body section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .container .leftSideNav {
+    padding: 0;
+    margin-left: -40px;
+    background: #ffffff;
+  }
+  body section .container .leftSideNav .sideUL {
+    margin-top: 80px;
+    background: #e2e8f0;
+    display: none;
+  }
+  body section .container .leftSideNav .sideUL li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+  }
+  body section .container .leftSideNav .sideUL .listMargins {
+    margin: 20px 0;
+  }
+  body section .container .leftSideNav .sideUL .listHeading-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -70px;
+  }
+  body section .container .leftSideNav .sideUL .present-page {
+    margin-left: -20px;
+  }
+  body section .container .leftSideNav .sideUL .listHeading {
+    border: none;
+  }
+  body section .container .leftSideNav .sideUL .LHTop {
+    width: 100%;
+    margin-left: 10px;
+  }
+  body section .container .leftSideNav label {
+    position: relative;
+    top: 55px;
+    left: 23px;
+    margin-left: 45px;
+    width: 25px;
+    display: block;
+    cursor: pointer;
+  }
+  body section .container .leftSideNav #toggle:checked + .sideUL {
+    display: block;
+  }
+  body section .container .rightSideContainer table tr {
+    background: #2d3748;
+  }
+  body section .container .rightSideContainer table tr .dataTitle,
+  body section .container .rightSideContainer table tr .dataPostedTime,
+  body section .container .rightSideContainer table tr .dataPublished,
+  body section .container .rightSideContainer table tr .dataAuther {
+    display: none;
+  }
+  body section .container .rightSideContainer table tr .addNewAndSymbol {
+    position: relative;
+    top: -20px;
+    left: 370px;
+  }
+  body section .container .rightSideContainer table .tableHeader {
+    background: none;
+  }
+  body section .container .rightSideContainer table .noneData {
+    display: none;
+  }
+  body section .container .rightSideContainer table td {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  body section .container .rightSideContainer table td .autherAdmin {
+    margin-left: 5px;
+  }
+  body section .container .rightSideContainer table .horizantal-line {
+    display: none;
+  }
+  body section .container .rightSideContainer table .titleData {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    font-weight: normal;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .postedTime {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .published {
+    padding: 5px 0;
+    border-radius: 0;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    background: none;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin .autherDate {
+    width: 100px;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .autherAndAdmin .autherAdmin {
+    padding: 5px 5px;
+    border-radius: 5;
+    background: black;
+    font-size: 15px;
+    color: #fffcfe;
+    text-align: right;
+    font-weight: normal;
+    color: #fffcfe;
+  }
+  body section .container .rightSideContainer table .noneData {
+    text-align: right;
+  }
+  body section .container .rightSideContainer table .tableInsideData {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    width: 90vw;
+  }
+  body section .container .rightSideContainer table hr {
+    display: none;
+  }
+  body section .container .rightSideContainer table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6eb4;
+  }
+}
+/*# sourceMappingURL=createView.css.map */
