@@ -415,6 +415,9 @@ hr {
   body header {
     width: 100vw;
   }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
+  }
   body section {
     width: 100vw;
     height: 100vh;
@@ -557,6 +560,9 @@ hr {
 @media (max-width: 768px) {
   body header {
     width: 100vw;
+  }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
   }
   body section {
     width: 100vw;
@@ -704,6 +710,9 @@ hr {
 @media (max-width: 576px) {
   body header {
     width: 100vw;
+  }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
   }
   body section {
     width: 100vw;
