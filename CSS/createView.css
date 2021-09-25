@@ -355,6 +355,9 @@ hr {
   body header {
     width: 100vw;
   }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
+  }
   body section {
     width: 100vw;
     height: 100vh;
@@ -442,6 +445,9 @@ hr {
   body header {
     width: 100vw;
   }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
+  }
   body section {
     width: 100vw;
     height: 100vh;
@@ -499,16 +505,21 @@ hr {
     margin-left: 10px;
   }
   body section .container .leftSideNav label {
-    position: relative;
-    top: 55px;
-    left: 680px;
-    margin-left: 45px;
-    width: 25px;
+    width: 90%;
     display: block;
     cursor: pointer;
   }
   body section .container .leftSideNav #toggle:checked + .sideUL {
     display: block;
+  }
+  body section .container .rightSideContainer table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 40px;
   }
   body section .container .rightSideContainer table tr {
     background: #2d3748;
@@ -519,10 +530,22 @@ hr {
   body section .container .rightSideContainer table tr .dataAuther {
     display: none;
   }
-  body section .container .rightSideContainer table tr .addNewAndSymbol {
-    position: relative;
-    top: -20px;
-    left: 0px;
+  body section .container .rightSideContainer table tr .header_lastItem {
+    width: 100%;
+  }
+  body section .container .rightSideContainer table tr .header_lastItem .addNewAndSymbol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   body section .container .rightSideContainer table .tableHeader {
     background: none;
@@ -624,7 +647,7 @@ hr {
   body section .container .rightSideContainer table td::before {
     content: attr(data-label);
     position: absolute;
-    left: 30px;
+    left: 40px;
     font-size: 20px;
     font-weight: 600;
     color: #ff6eb4;
@@ -634,6 +657,9 @@ hr {
 @media (max-width: 576px) {
   body header {
     width: 100vw;
+  }
+  body header .symbolsAndTitle {
+    margin-left: 10px;
   }
   body section {
     width: 100vw;
@@ -693,10 +719,10 @@ hr {
   }
   body section .container .leftSideNav label {
     position: relative;
-    top: 55px;
-    left: 23px;
+    top: 10px;
+    left: 0px;
     margin-left: 45px;
-    width: 25px;
+    width: 88%;
     display: block;
     cursor: pointer;
   }
@@ -712,10 +738,22 @@ hr {
   body section .container .rightSideContainer table tr .dataAuther {
     display: none;
   }
-  body section .container .rightSideContainer table tr .addNewAndSymbol {
-    position: relative;
-    top: -20px;
-    left: 370px;
+  body section .container .rightSideContainer table tr .header_lastItem {
+    width: 100%;
+  }
+  body section .container .rightSideContainer table tr .header_lastItem .addNewAndSymbol {
+    margin-top: 25px;
+    margin-bottom: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   body section .container .rightSideContainer table .tableHeader {
     background: none;
