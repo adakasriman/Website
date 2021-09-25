@@ -315,6 +315,9 @@ hr {
     body {
         header {
             width: 100vw;
+            .symbolsAndTitle{
+                margin-left: 10px;
+            }
         }
         section {
             width: 100vw;
@@ -363,7 +366,7 @@ hr {
                     label {
                         margin-top: 20px;
                         text-align: center;
-                        background:#2a4365;
+                        background: #2a4365;
                         padding: 20px 0;
                         color: #fffcfe;
                         border-radius: 100px;
@@ -376,8 +379,8 @@ hr {
                         cursor: pointer;
                     }
                     label::after {
-                       content: attr(adding);
-                       margin-left: 20px;
+                        content: attr(adding);
+                        margin-left: 20px;
                     }
 
                     #toggle:checked + .sideUL {
@@ -386,15 +389,15 @@ hr {
                     }
                 }
                 .rightSideContainer {
-                   padding: 30px 0 0 10px;
+                    padding: 30px 0 0 10px;
 
-                   table {
-                       tr {
-                           .dataTitle {
-                               margin-left: 3px;
-                           }
-                       }
-                   }
+                    table {
+                        tr {
+                            .dataTitle {
+                                margin-left: 3px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -405,6 +408,9 @@ hr {
     body {
         header {
             width: 100vw;
+            .symbolsAndTitle{
+                margin-left: 10px;
+            }
         }
         section {
             width: 100vw;
@@ -451,11 +457,7 @@ hr {
                         }
                     }
                     label {
-                        position: relative;
-                        top: 55px;
-                        left: 680px;
-                        margin-left: 45px;
-                        width: 25px;
+                        width: 90%;
                         display: block;
                         cursor: pointer;
                     }
@@ -469,6 +471,9 @@ hr {
                     // display: none;
 
                     table {
+                          display: flex;
+                          justify-content: center;
+                          margin-right: 40px;
                         tr {
                             background: #2d3748;
                             .dataTitle,
@@ -477,11 +482,16 @@ hr {
                             .dataAuther {
                                 display: none;
                             }
-
-                            .addNewAndSymbol {
-                                position: relative;
-                                top: -20px;
-                                left: 0px;
+                            .header_lastItem {
+                                width: 100%;
+                                .addNewAndSymbol {
+                                    margin-top: 0px;
+                                    margin-bottom: 10px;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 50px;
+                                    justify-content: center;
+                                }
                             }
                         }
                         .tableHeader {
@@ -573,7 +583,7 @@ hr {
                     table td::before {
                         content: attr(data-label);
                         position: absolute;
-                        left: 30px;
+                        left: 40px;
                         font-size: 20px;
                         font-weight: 600;
                         color: #ff6eb4;
@@ -588,6 +598,9 @@ hr {
     body {
         header {
             width: 100vw;
+            .symbolsAndTitle{
+                margin-left: 10px;
+            }
         }
         section {
             width: 100vw;
@@ -635,10 +648,10 @@ hr {
                     }
                     label {
                         position: relative;
-                        top: 55px;
-                        left: 23px;
+                        top: 10px;
+                        left: 0px;
                         margin-left: 45px;
-                        width: 25px;
+                        width: 88%;
                         display: block;
                         cursor: pointer;
                     }
@@ -660,11 +673,16 @@ hr {
                             .dataAuther {
                                 display: none;
                             }
-
-                            .addNewAndSymbol {
-                                position: relative;
-                                top: -20px;
-                                left: 370px;
+                            .header_lastItem {
+                                width: 100%;
+                                .addNewAndSymbol {
+                                    margin-top: 25px;
+                                    margin-bottom: -10px;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 50px;
+                                    justify-content: center;
+                                }
                             }
                         }
                         .tableHeader {
