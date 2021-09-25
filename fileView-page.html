@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="/CSS/fileView-page.css">
+    <link rel="styleSheet" href="/CSS/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -37,6 +38,10 @@
         <div class="container">
             <div class="leftSideNav">
                 <nav>
+                    <label adding="More menu" for="toggle" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="toggle" class="checkbtn">
                     <ul class="sideUL">
                         <li class="listHeading"><a class="listHeading-color" href="">Manage</a></li>
                         <li class="list-flex">
@@ -149,7 +154,7 @@
             <div class="rightSideContainer">
                 <div class="uploadAndDragDrop">
                     <div class="upload"><a class="uploadStyle" href="">
-                        click to upload</a>
+                            click to upload</a>
                     </div>
                     <div class="dragAndDrop">
                         Drag & drop multiple files to upload
@@ -165,15 +170,17 @@
                         </div>
                         <hr>
                     </div>
-                    <nav>
-                        <ul>
-                            <li><a class="filter" href="">Filter</a></li>
-                            <li><a class="images imageColor" href="">Images</a></li>
-                            <li><a class="files navListColor" href="">Files</a></li>
-                            <li><a class="audio navListColor" href="">Audio</a></li>
-                            <li><a class="video navListColor" href="">Video</a></li>
-                        </ul>
-                    </nav>
+                    <div>
+                        <nav class="navigations">
+                            <ul>
+                                <li><a class="filter" href="">Filter</a></li>
+                                <li><a class="images imageColor" href="">Images</a></li>
+                                <li><a class="files navListColor" href="">Files</a></li>
+                                <li><a class="audio navListColor" href="">Audio</a></li>
+                                <li><a class="video navListColor" href="">Video</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
                 <div class="uploadFilesPlace">
                     <div class="uploadedImages">
