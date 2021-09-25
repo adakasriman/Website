@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="/CSS/blog-view.css">
+    <link rel="styleSheet" href="/CSS/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -37,6 +38,10 @@
         <div class="container">
             <div class="leftSideNav">
                 <nav>
+                    <label adding = "More Pages" for="toggle" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="toggle" class="checkbtn">
                     <ul class="sideUL">
                         <li class="listHeading"><a class="listHeading-color" href="">Manage</a></li>
                         <li class="list-flex">
@@ -69,7 +74,7 @@
                                 <a class="sideListColor" href="/blog-view.html">Blog articles</a>
                             </div>
                             <div>
-                                <img src="/IMG/Ellipse.png" alt="">
+                                <img class="present-page" src="/IMG/Ellipse.png" alt="">
                             </div>
                         </li>
                         <li class="listMargins list-flex">
@@ -157,73 +162,73 @@
                             <div><a class="addNew" href="">Add new</a></div>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="horizantal-line">
                         <td class="underLine">
                             <hr>
                         </td>
                     </tr>
                     <tr class="tableInsideData">
-                        <td class="post-title">
+                        <td label = "Title :" class="post-title">
                             <div class="title-data">Design: A Survival Guide for Beginners</div>
                             <div class="postedTime">Posted 3 days ago</div>
                         </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
+                        <td label = "Status :" class="status stats-marginRight">Published</td>
+                        <td label = "Stats :" class="numberViewDownloads">
                             <div class="number">120</div>
                             <div class="vews">views</div>
                             <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
                         </td>
-                        <td><img class="none-data" src="/IMG/more-horizontal.png" alt=""></td>
+                        <td label = "#" class="td-dataNone dataNone-margins"><img class="none-data" src="/IMG/more-horizontal.png" alt=""></td>
                     </tr>
                     <tr class="tableInsideData">
-                        <td class="post-title">
+                        <td label = "Title :" class="post-title">
                             <div class="title-data">Design: A Survival Guide for Beginners</div>
                             <div class="postedTime">Posted 3 days ago</div>
                         </td>
-                        <td class="draft stats-marginRight">Draft</td>
-                        <td class="numberViewDownloads">
+                        <td label = "Status :" class="status draft stats-marginRight">Draft</td>
+                        <td label = "Stats :" class="numberViewDownloads">
                             <div class="number marginRight-00"> 00</div>
                             <div class="vews">views</div>
                         </td>
-                        <td class="none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
+                        <td label = "#" class="td-dataNone none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
                     </tr>
                     <tr class="tableInsideData">
-                        <td class="post-title">
+                        <td label = "Title :" class="post-title">
                             <div class="title-data">Design: A Survival Guide for Beginners</div>
                             <div class="postedTime">Posted 3 days ago</div>
                         </td>
-                        <td class="scheduled stats-marginRight">Scheduled</td>
-                        <td class="numberViewDownloads"> 
+                        <td label = "Status :" class="status scheduled stats-marginRight">Scheduled</td>
+                        <td label = "Stats :" class="numberViewDownloads"> 
                             <div class="number marginRight-00"> 00</div>
                             <div class="vews">views</div>
                         </td>
-                        <td class="none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
+                        <td label = "#"class="td-dataNone none-data1"><img src="/IMG/more-horizontal.png" alt=""></td>
                     </tr>
                     <tr class="tableInsideData">
-                        <td class="post-title">
+                        <td label = "Title :" class="post-title">
                             <div class="title-data">Design: A Survival Guide for Beginners</div>
                             <div class="postedTime">Posted 3 days ago</div>
                         </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
+                        <td label = "Status :" class="status stats-marginRight">Published</td>
+                        <td label = "Stats :" class="numberViewDownloads">
                             <div class="number">120</div>
                             <div class="vews">views</div>
                             <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
                         </td>
-                        <td class="none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
+                        <td label = "#" class="td-dataNone none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
                     </tr>
                     <tr class="tableInsideData">
-                        <td class="post-title">
+                        <td label = "Title :" class="post-title">
                             <div class="title-data">Design: A Survival Guide for Beginners</div>
                             <div class="postedTime">Posted 3 days ago</div>
                         </td>
-                        <td class="status stats-marginRight">Published</td>
-                        <td class="numberViewDownloads">
+                        <td label = "Status :" class="status stats-marginRight">Published</td>
+                        <td label = "Stats :" class="numberViewDownloads">
                             <div class="number">120</div>
                             <div class="vews">views</div>
                             <div class="downloads"><img src="/IMG/arrow-up-circle.png" alt=""></div>
                         </td>
-                        <td class="none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
+                        <td label = "#" class="td-dataNone none-data"><img src="/IMG/more-horizontal.png" alt=""></td>
                     </tr>
                 </table>
                 <div class="pageNumbers">
