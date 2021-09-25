@@ -80,6 +80,13 @@ a {
 
 .leftSideNav {
     padding: 72px 70px 0px 45px;
+
+    #toggle {
+        display: none;
+    }
+    .checkbtn {
+        display: none;
+    }
 }
 .LHTop {
     margin-top: 32px;

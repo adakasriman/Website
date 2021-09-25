@@ -103,6 +103,14 @@ a {
   padding: 72px 70px 0px 45px;
 }
 
+.leftSideNav #toggle {
+  display: none;
+}
+
+.leftSideNav .checkbtn {
+  display: none;
+}
+
 .LHTop {
   margin-top: 32px;
 }
